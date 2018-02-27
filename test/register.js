@@ -7,6 +7,13 @@ let getRandomInt = function (min, max) {
 };
 require('mocha-allure-reporter');
 
+let expect = allure.createStep('Checking the expected value; Actual - {0}, include expect - {1}', (actual, expect) => {
+    chai.expect(actual).to.deep.include(expect);
+});
+
+let checkStatus = allure.createStep('Check status; Actual - {0}, Expect - {1}', (actual, expect) => {
+    chai.expect(actual).to.equal(expect);
+});
 
 //sorry guys, the method of DELETE for logins I did not find
 describe('API ./Register of new user', () => {
@@ -22,7 +29,7 @@ describe('API ./Register of new user', () => {
 
             let login = await post.register(reg_table);
 
-            chai.expect(login.text).to.deep.include('Congratulations! You have been successfully registered.');
+            expect(login.text, 'Congratulations! You have been successfully registered.');
         });
 
         it('register with incorrect email', async () => {
@@ -36,7 +43,7 @@ describe('API ./Register of new user', () => {
 
             let login = await post.register(reg_table);
 
-            chai.expect(login.text).to.deep.include('not a valid email address');
+            expect(login.text, 'not a valid email address');
         });
 
         it('register with incorrect login (count of symbols more than 16)', async () => {
@@ -50,7 +57,7 @@ describe('API ./Register of new user', () => {
 
             let login = await post.register(reg_table);
 
-            chai.expect(login.text).to.deep.include('login must be 4-16 symbol length');
+            expect(login.text, 'login must be 4-16 symbol length');
         });
 
         it('register with incorrect password (with spaces)', async () => {
@@ -64,7 +71,7 @@ describe('API ./Register of new user', () => {
 
             let login = await post.register(reg_table);
 
-            chai.expect(login.text).to.deep.include('the password can not contain spaces');
+            expect(login.text, 'the password can not contain spaces');
         });
 
         it('register with incorrect password_confirm (does not match with password field)', async () => {
@@ -78,7 +85,7 @@ describe('API ./Register of new user', () => {
 
             let login = await post.register(reg_table);
 
-            chai.expect(login.text).to.deep.include("password doesn\'t match confirmation");
+            expect(login.text, "password doesn\'t match confirmation");
         });
 
         it('register with incorrect sex', async () => {
@@ -92,7 +99,7 @@ describe('API ./Register of new user', () => {
 
             let login = await post.register(reg_table);
 
-            chai.expect(login.text).to.deep.include('so what sex are you, really?');
+            expect(login.text, 'so what sex are you, really?');
         })
     });
 
@@ -108,7 +115,7 @@ describe('API ./Register of new user', () => {
 
             let login = await post.register(reg_table);
 
-            login.should.have.status(200)
+            checkStatus(login.status, 200);
         });
 
         it('register with incorrect email (await status 400)', async () => {
@@ -124,10 +131,10 @@ describe('API ./Register of new user', () => {
             try {
                 login = await post.register(reg_table);
             } catch (err) {
-                err.should.have.status(400)
+                checkStatus(err.status, 400);
             }
 
-            login.should.have.status(400)
+            checkStatus(login.status, 400);
         });
 
         it('register with incorrect login (count of symbols more than 16) (await status 400)', async () => {
@@ -143,10 +150,10 @@ describe('API ./Register of new user', () => {
             try {
                 login = await post.register(reg_table);
             } catch (err) {
-                err.should.have.status(400)
+                checkStatus(err.status, 400);
             }
 
-            login.should.have.status(400)
+            checkStatus(login.status, 400);
         });
 
         it('register with incorrect password (with spaces) (await status 400)', async () => {
@@ -162,10 +169,10 @@ describe('API ./Register of new user', () => {
             try {
                 login = await post.register(reg_table);
             } catch (err) {
-                err.should.have.status(400)
+                checkStatus(err.status, 400);
             }
 
-            login.should.have.status(400)
+            checkStatus(login.status, 400);
         });
 
         it('register with incorrect password_confirm (await status 400)', async () => {
@@ -181,10 +188,10 @@ describe('API ./Register of new user', () => {
             try {
                 login = await post.register(reg_table);
             } catch (err) {
-                err.should.have.status(400)
+                checkStatus(err.status, 400);
             }
 
-            login.should.have.status(400)
+            checkStatus(login.status, 400);
         });
 
         it('register with incorrect sex (await status 400)', async () => {
@@ -200,10 +207,10 @@ describe('API ./Register of new user', () => {
             try {
                 login = await post.register(reg_table);
             } catch (err) {
-                err.should.have.status(400)
+                checkStatus(err.status, 400);
             }
 
-            login.should.have.status(400)
+            checkStatus(login.status, 400);
         })
     });
 
@@ -220,7 +227,7 @@ describe('API ./Register of new user', () => {
 
         let login = await post.auth(reg_table.login, reg_table.password);
 
-        login.should.have.status(200);
-        chai.expect(login.text).to.deep.include('Successfully authorized!')
+        checkStatus(login.status, 200);
+        expect(login.text, 'Successfully authorized!')
     })
 });
