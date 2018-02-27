@@ -1,0 +1,120 @@
+{
+  "uid" : "6cebeb93f5af3cea",
+  "name" : "check existence background.png",
+  "fullName" : "API ./GET background.png.check existence background.png",
+  "historyId" : "226238beb2b3fd9b24d7d1e65dbd96b6",
+  "time" : {
+    "start" : 1519717976199,
+    "stop" : 1519717976288,
+    "duration" : 89
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "\n                      AssertionError: expected 404 to equal 200\n                      + expected - actual\n                \n                      -404\n                      +200\n                      ",
+    "trace" : "      at allure.createStep (test/auth.js:10:28)\n                      at node_modules/allure-js-commons/runtime.js:18:31\n                      at Context.it (test/auth.js:109:13)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusDetails" : {
+      "message" : "\n                      AssertionError: expected 404 to equal 200\n                      + expected - actual\n                \n                      -404\n                      +200\n                      ",
+      "trace" : "      at allure.createStep (test/auth.js:10:28)\n                      at node_modules/allure-js-commons/runtime.js:18:31\n                      at Context.it (test/auth.js:109:13)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+      "flaky" : true
+    },
+    "steps" : [ {
+      "name" : "Check status; Actual - 404, Expect - 200",
+      "time" : {
+        "start" : 1519717976288,
+        "stop" : 1519717976288,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API ./GET background.png"
+  }, {
+    "name" : "testClass",
+    "value" : "API ./GET background.png"
+  }, {
+    "name" : "testMethod",
+    "value" : "check existence background.png"
+  }, {
+    "name" : "package",
+    "value" : "API ./GET background.png"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d53f509dc0d8f33f",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected [Error: Not Found] to have status code 200 but got 404\n                      + expected - actual\n                \n                      -404\n                      +200\n                      ",
+      "time" : {
+        "start" : 1519683134651,
+        "stop" : 1519683134709,
+        "duration" : 58
+      }
+    }, {
+      "uid" : "5de805c9a09254e8",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected [Error: Not Found] to have status code 200 but got 404\n                      + expected - actual\n                \n                      -404\n                      +200\n                      ",
+      "time" : {
+        "start" : 1519683112089,
+        "stop" : 1519683112150,
+        "duration" : 61
+      }
+    }, {
+      "uid" : "46c40cb2af57bdba",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected [Error: Not Found] to have status code 200 but got 404\n                      + expected - actual\n                \n                      -404\n                      +200\n                      ",
+      "time" : {
+        "start" : 1519683003933,
+        "stop" : 1519683003990,
+        "duration" : 57
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6cebeb93f5af3cea.json",
+  "statusDetailsSafe" : {
+    "message" : "\n                      AssertionError: expected 404 to equal 200\n                      + expected - actual\n                \n                      -404\n                      +200\n                      ",
+    "trace" : "      at allure.createStep (test/auth.js:10:28)\n                      at node_modules/allure-js-commons/runtime.js:18:31\n                      at Context.it (test/auth.js:109:13)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

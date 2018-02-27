@@ -1,0 +1,720 @@
+{
+  "5579be63161c9b970f15d11b79f6f0b4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "494645079311175",
+      "status" : "failed",
+      "statusDetails" : "Expected - '1234567891234567', actual - '123456789123456789'",
+      "time" : {
+        "start" : 1519689141869,
+        "stop" : 1519689170939,
+        "duration" : 29070
+      }
+    } ]
+  },
+  "64f487ba667e63dbd53f6dfc776a97b2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f6147a534190a137",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected 200 to equal 400\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+      "time" : {
+        "start" : 1519717975398,
+        "stop" : 1519717975598,
+        "duration" : 200
+      }
+    } ]
+  },
+  "8978bd10b6786c24915d720d7f8a1d6d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8066920393b9186",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected 200 to equal 400\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+      "time" : {
+        "start" : 1519717980842,
+        "stop" : 1519717981008,
+        "duration" : 166
+      }
+    } ]
+  },
+  "4a6beb39326933f2a5df2a6656c9f874" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf0779bd816401c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519717975605,
+        "stop" : 1519717975747,
+        "duration" : 142
+      }
+    } ]
+  },
+  "3bf06da3337c7d14fbdcaea3122ccb14" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "94aa7319830a84a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519717974773,
+        "stop" : 1519717975082,
+        "duration" : 309
+      }
+    } ]
+  },
+  "4f9fc1126012d54ba45fcadad196dc4b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "edd0498fef51e2d9",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected 200 to equal 400\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+      "time" : {
+        "start" : 1519717978247,
+        "stop" : 1519717980455,
+        "duration" : 2208
+      }
+    } ]
+  },
+  "d1d99ce121a83057ea421658f7cf4b53" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a99028ddec509b06",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected 200 to equal 400\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+      "time" : {
+        "start" : 1519717977746,
+        "stop" : 1519717977897,
+        "duration" : 151
+      }
+    } ]
+  },
+  "f625e6b103a99cfe6b40e700592ec667" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd2396eb70ae1548",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519689170941,
+        "stop" : 1519689214508,
+        "duration" : 43567
+      }
+    } ]
+  },
+  "637322e3cb7cfea0a0aee4f05766f619" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "feb368907ae75967",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519689242591,
+        "stop" : 1519689287498,
+        "duration" : 44907
+      }
+    } ]
+  },
+  "41524a51b452246b49ae188071f8f806" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f1b93677a36e5c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519689078236,
+        "stop" : 1519689084165,
+        "duration" : 5929
+      }
+    } ]
+  },
+  "2230c7fb9136a195749b10a583df2d83" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "816b41b5545222c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519689072426,
+        "stop" : 1519689078234,
+        "duration" : 5808
+      }
+    } ]
+  },
+  "8e99fdb60afb2eb4f6451373af595acb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9b077d227a4e275",
+      "status" : "failed",
+      "statusDetails" : "Expected - '- email incorrect', actual - 'Congratulations! You have been successfully registered'",
+      "time" : {
+        "start" : 1519689330622,
+        "stop" : 1519689379657,
+        "duration" : 49035
+      }
+    } ]
+  },
+  "5c886c8d8d788ca59e22f98f5a088abf" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "369da4c507ea0f0f",
+      "status" : "failed",
+      "statusDetails" : "Expected - 'password incorrect', actual - 'Congratulations! You have been successfully registered.'",
+      "time" : {
+        "start" : 1519689287499,
+        "stop" : 1519689330620,
+        "duration" : 43121
+      }
+    } ]
+  },
+  "d9661213e341a0f5ae22e0bc66202efc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "20b3632ea94fa7bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519717977272,
+        "stop" : 1519717977441,
+        "duration" : 169
+      }
+    } ]
+  },
+  "96bdcf838ff8c0f878007d0a5c52a3b5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30c6691c923fcdb3",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected 200 to equal 400\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+      "time" : {
+        "start" : 1519717977897,
+        "stop" : 1519717978247,
+        "duration" : 350
+      }
+    } ]
+  },
+  "40753b160eec05a8ad7457a15320ce76" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4cda6c5d5a9cb35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519689126988,
+        "stop" : 1519689141867,
+        "duration" : 14879
+      }
+    } ]
+  },
+  "67103858193daa652483e328bc6cb55c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e82b08b169af25d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519689098135,
+        "stop" : 1519689126986,
+        "duration" : 28851
+      }
+    } ]
+  },
+  "e6a3c61eea1977830f5fd5a09d3c6b85" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9ce2f91837b48806",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519717976289,
+        "stop" : 1519717976659,
+        "duration" : 370
+      }
+    } ]
+  },
+  "b8ff8ed1a15e985c4bafed8d6ef174cf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cc38ca1583c0d01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519717976659,
+        "stop" : 1519717976807,
+        "duration" : 148
+      }
+    } ]
+  },
+  "bbbd81014c251838b2753e1dea0d662" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a8f39de10fcc293",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519717975747,
+        "stop" : 1519717975907,
+        "duration" : 160
+      }
+    } ]
+  },
+  "a3d5cefcaa0586c92a00156f407e5d47" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8bd73c559b4b8dd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519717976968,
+        "stop" : 1519717977115,
+        "duration" : 147
+      }
+    } ]
+  },
+  "b2abddf23ec8ed3ec1ca7545d39cb3c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b10fa7c0ae7a46ed",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected 200 to equal 400\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+      "time" : {
+        "start" : 1519717975082,
+        "stop" : 1519717975238,
+        "duration" : 156
+      }
+    } ]
+  },
+  "b269e8976fb00eda29501a61c8ee5ad6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31f4084b58c5d33d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519717977597,
+        "stop" : 1519717977746,
+        "duration" : 149
+      }
+    } ]
+  },
+  "f3af24b8654e45f7b819e0b2c49d50ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "782e9e6edf40290d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519689063022,
+        "stop" : 1519689072423,
+        "duration" : 9401
+      }
+    } ]
+  },
+  "df623046b3161d4d080885b02e844639" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd9430cf3578af86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519689084167,
+        "stop" : 1519689085916,
+        "duration" : 1749
+      }
+    } ]
+  },
+  "8ecb8a957ce4cf4796d697c076e7cc4a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "582902a834deb4df",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected 200 to equal 400\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+      "time" : {
+        "start" : 1519717980455,
+        "stop" : 1519717980842,
+        "duration" : 387
+      }
+    } ]
+  },
+  "4a43a11027d4f2b85dbab886543add59" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35dab4b99ece2413",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519689089041,
+        "stop" : 1519689098134,
+        "duration" : 9093
+      }
+    } ]
+  },
+  "981102fea20872189bdc45d404a00e57" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84747342b31de45a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519717976807,
+        "stop" : 1519717976968,
+        "duration" : 161
+      }
+    } ]
+  },
+  "226238beb2b3fd9b24d7d1e65dbd96b6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cebeb93f5af3cea",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected 404 to equal 200\n                      + expected - actual\n                \n                      -404\n                      +200\n                      ",
+      "time" : {
+        "start" : 1519717976199,
+        "stop" : 1519717976288,
+        "duration" : 89
+      }
+    } ]
+  },
+  "6e6de5a0a307bc55429763ea14c669d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7974916ac23a232b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519717977441,
+        "stop" : 1519717977583,
+        "duration" : 142
+      }
+    } ]
+  },
+  "188010aeb67fd617b3165ecd1fd8ae4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d02dcd155acc2b44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519717976053,
+        "stop" : 1519717976195,
+        "duration" : 142
+      }
+    } ]
+  },
+  "fca03f34021f63eedc883f3216735ff9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "65f204a25c9bc823",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected 200 to equal 400\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+      "time" : {
+        "start" : 1519717975238,
+        "stop" : 1519717975398,
+        "duration" : 160
+      }
+    } ]
+  },
+  "6aeda89fbcc3433f45db283053234179" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "734b240b2f7f0227",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519689214509,
+        "stop" : 1519689242589,
+        "duration" : 28080
+      }
+    } ]
+  },
+  "70de05735334e3ec6bd7a548585647e4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95c806b68ae5eead",
+      "status" : "failed",
+      "statusDetails" : "Expected empty fields, actual is not empty; See attachment",
+      "time" : {
+        "start" : 1519689379659,
+        "stop" : 1519689424382,
+        "duration" : 44723
+      }
+    } ]
+  },
+  "939174cf204ebfdd6ef5f451733deb03" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "34a8090718349bca",
+      "status" : "failed",
+      "statusDetails" : "expected '1234567891234567', actual '123456789123456789'",
+      "time" : {
+        "start" : 1519689085918,
+        "stop" : 1519689089038,
+        "duration" : 3120
+      }
+    } ]
+  },
+  "66954a007e3120f4706e6f96682845c0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "605528d92d3cf452",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected '\\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">\\n<html>\\n<head>\\n    <title>\\n        \\n        Welcome to our buggy system!\\n        \\n    </title>\\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\\n    <style type=\"text/css\">\\n        div.content {\\n            width: 440px;\\n            padding: 10px;\\n            background-color: greenyellow;\\n            border: 1px solid #93d928;\\n            -moz-border-radius: 10px;\\n            -webkit-border-radius: 10px;\\n        }\\n\\n        table.logo {\\n            background: url( \"/img/background.png\" );\\n            background-repeat: no-repeat;\\n            width: 402px;\\n            height: 285px;\\n        }\\n\\n        span.message {\\n            color: green;\\n        }\\n\\n        div.error {\\n            width: 440px;\\n            padding: 10px;\\n            border: 1px solid coral;\\n            margin-bottom: 10px;\\n            text-align: left;\\n            -moz-border-radius: 10px;\\n            -webkit-border-radius: 10px;\\n        }\\n    </style>\\n</head>\\n<body>\\n<table width=\"100%\" height=\"100%\" border=\"0\">\\n    <tr align=\"center\" valign=\"middle\">\\n        <td>\\n            <table class=\"logo\" border=\"0\">\\n                <tr align=\"center\" valign=\"middle\">\\n                    <td>\\n                        \\n                        <div class=\"content\">\\n                            \\n                            <span class=\"message\">Congratulations! You have been successfully registered. Now you can <a href=\"?action=login\">login</a>.</span>\\n                            \\n                            \\n                            \\n                            \\n                        </div>\\n                    </td>\\n                </tr>\\n            </table>\\n        </td>\\n    </tr>\\n</table>\\n<script>\\n  (function(i,s,o,g,r,a,m){i[\\'GoogleAnalyticsObject\\']=r;i[r]=i[r]||function(){\\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\\n  })(window,document,\\'script\\',\\'https://www.google-analytics.com/analytics.js\\',\\'ga\\');\\n\\n  ga(\\'create\\', \\'UA-45669254-2\\', \\'auto\\');\\n  ga(\\'send\\', \\'pageview\\');\\n\\n</script>\\n</body>\\n</html>\\n' to deep include 'the password can not contain spaces'",
+      "time" : {
+        "start" : 1519717977115,
+        "stop" : 1519717977272,
+        "duration" : 157
+      }
+    } ]
+  },
+  "dcf5defe58bb423b532be7daf782f4ca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c96f14e46e3a665",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519717975907,
+        "stop" : 1519717976053,
+        "duration" : 146
+      }
+    } ]
+  }
+}

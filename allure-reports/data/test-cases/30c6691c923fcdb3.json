@@ -1,0 +1,144 @@
+{
+  "uid" : "30c6691c923fcdb3",
+  "name" : "register with incorrect login (count of symbols more than 16) (await status 400)",
+  "fullName" : "API ./Register of new user check status of request.register with incorrect login (count of symbols more than 16) (await status 400)",
+  "historyId" : "96bdcf838ff8c0f878007d0a5c52a3b5",
+  "time" : {
+    "start" : 1519717977897,
+    "stop" : 1519717978247,
+    "duration" : 350
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "\n                      AssertionError: expected 200 to equal 400\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+    "trace" : "      at allure.createStep (test/register.js:15:28)\n                      at node_modules/allure-js-commons/runtime.js:18:31\n                      at Context.it (test/register.js:156:13)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusDetails" : {
+      "message" : "\n                      AssertionError: expected 200 to equal 400\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+      "trace" : "      at allure.createStep (test/register.js:15:28)\n                      at node_modules/allure-js-commons/runtime.js:18:31\n                      at Context.it (test/register.js:156:13)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+      "flaky" : true
+    },
+    "steps" : [ {
+      "name" : "Registration;",
+      "time" : {
+        "start" : 1519717977897,
+        "stop" : 1519717978247,
+        "duration" : 350
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5df5aa4f7793e4f7",
+        "name" : "Data",
+        "source" : "5df5aa4f7793e4f7.txt",
+        "type" : "text/plain",
+        "size" : 148
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Check status; Actual - 200, Expect - 400",
+      "time" : {
+        "start" : 1519717978247,
+        "stop" : 1519717978247,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API ./Register of new user check status of request"
+  }, {
+    "name" : "testClass",
+    "value" : "API ./Register of new user check status of request"
+  }, {
+    "name" : "testMethod",
+    "value" : "register with incorrect login (count of symbols more than 16) (await status 400)"
+  }, {
+    "name" : "package",
+    "value" : "API ./Register of new user check status of request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9e2d2c3fa3ae39ec",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected { Object (domain, _events, ...) } to have status code 400 but got 200\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+      "time" : {
+        "start" : 1519683136686,
+        "stop" : 1519683136916,
+        "duration" : 230
+      }
+    }, {
+      "uid" : "2835c2c7dbdadea3",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected { Object (domain, _events, ...) } to have status code 400 but got 200\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+      "time" : {
+        "start" : 1519683114025,
+        "stop" : 1519683114215,
+        "duration" : 190
+      }
+    }, {
+      "uid" : "51af45a888f4e621",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected { Object (domain, _events, ...) } to have status code 400 but got 200\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+      "time" : {
+        "start" : 1519683005892,
+        "stop" : 1519683006090,
+        "duration" : 198
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "30c6691c923fcdb3.json",
+  "statusDetailsSafe" : {
+    "message" : "\n                      AssertionError: expected 200 to equal 400\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+    "trace" : "      at allure.createStep (test/register.js:15:28)\n                      at node_modules/allure-js-commons/runtime.js:18:31\n                      at Context.it (test/register.js:156:13)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

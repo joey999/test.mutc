@@ -1,0 +1,155 @@
+{
+  "uid" : "a4cda6c5d5a9cb35",
+  "name" : "Try to create user with empty fields",
+  "fullName" : "Register new user.Try to create user with empty fields",
+  "historyId" : "40753b160eec05a8ad7457a15320ce76",
+  "time" : {
+    "start" : 1519689126988,
+    "stop" : 1519689141867,
+    "duration" : 14879
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I go to /cgi-bin/bug.pl?action=register page",
+      "time" : {
+        "start" : 1519689134623,
+        "stop" : 1519689134623,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I set fields manual:",
+      "time" : {
+        "start" : 1519689134623,
+        "stop" : 1519689134625,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cefd37c94182f321",
+        "name" : "multiline_arg",
+        "source" : "cefd37c94182f321.txt",
+        "type" : "text/plain",
+        "size" : 171
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I click 'Register' button manual",
+      "time" : {
+        "start" : 1519689134625,
+        "stop" : 1519689140246,
+        "duration" : 5621
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f5185d4c37966c7c",
+        "name" : "./screenshot_2018-02-27-02-52-20.066.png",
+        "source" : "f5185d4c37966c7c.png",
+        "type" : "image/png",
+        "size" : 79635
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I should see message 'error'",
+      "time" : {
+        "start" : 1519689140246,
+        "stop" : 1519689141842,
+        "duration" : 1596
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5a70454e7484a387",
+        "name" : "./screenshot_2018-02-27-02-52-21.663.png",
+        "source" : "5a70454e7484a387.png",
+        "type" : "image/png",
+        "size" : 79635
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Register new user"
+  }, {
+    "name" : "host",
+    "value" : "iMac-evgeniy.gotech.local"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Try to create user with empty fields"
+  }, {
+    "name" : "thread",
+    "value" : "70182613817300"
+  }, {
+    "name" : "suite",
+    "value" : "Register new user"
+  }, {
+    "name" : "testClass",
+    "value" : "Register new user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Try to create user with empty fields"
+  }, {
+    "name" : "package",
+    "value" : "Register new user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4cda6c5d5a9cb35.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

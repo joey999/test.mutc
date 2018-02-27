@@ -1,0 +1,155 @@
+{
+  "uid" : "fd2396eb70ae1548",
+  "name" : "Try to input in Email two @ symbols",
+  "fullName" : "Register new user.Try to input in Email two @ symbols",
+  "historyId" : "f625e6b103a99cfe6b40e700592ec667",
+  "time" : {
+    "start" : 1519689170941,
+    "stop" : 1519689214508,
+    "duration" : 43567
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I go to /cgi-bin/bug.pl?action=register page",
+      "time" : {
+        "start" : 1519689206892,
+        "stop" : 1519689206892,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I set fields manual:",
+      "time" : {
+        "start" : 1519689206892,
+        "stop" : 1519689206914,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8adfed8315adadda",
+        "name" : "multiline_arg",
+        "source" : "8adfed8315adadda.txt",
+        "type" : "text/plain",
+        "size" : 236
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I click 'Register' button manual",
+      "time" : {
+        "start" : 1519689206914,
+        "stop" : 1519689211307,
+        "duration" : 4393
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8d1f1a20ae37a13a",
+        "name" : "./screenshot_2018-02-27-02-53-31.134.png",
+        "source" : "8d1f1a20ae37a13a.png",
+        "type" : "image/png",
+        "size" : 71764
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I should see message ' - not a valid email address'",
+      "time" : {
+        "start" : 1519689211307,
+        "stop" : 1519689214483,
+        "duration" : 3176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5b09336f51db4efd",
+        "name" : "./screenshot_2018-02-27-02-53-34.307.png",
+        "source" : "5b09336f51db4efd.png",
+        "type" : "image/png",
+        "size" : 71764
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Register new user"
+  }, {
+    "name" : "host",
+    "value" : "iMac-evgeniy.gotech.local"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Try to input in Email two @ symbols"
+  }, {
+    "name" : "thread",
+    "value" : "70182613817300"
+  }, {
+    "name" : "suite",
+    "value" : "Register new user"
+  }, {
+    "name" : "testClass",
+    "value" : "Register new user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Try to input in Email two @ symbols"
+  }, {
+    "name" : "package",
+    "value" : "Register new user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd2396eb70ae1548.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,53 @@
+{
+  "uid" : "46c40cb2af57bdba",
+  "name" : "check existence background.png",
+  "fullName" : "API ./GET background.png.check existence background.png",
+  "historyId" : "226238beb2b3fd9b24d7d1e65dbd96b6",
+  "time" : {
+    "start" : 1519683003933,
+    "stop" : 1519683003990,
+    "duration" : 57
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "\n                      AssertionError: expected [Error: Not Found] to have status code 200 but got 404\n                      + expected - actual\n                \n                      -404\n                      +200\n                      ",
+    "trace" : "      at Context.it (test/auth.js:101:27)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API ./GET background.png"
+  }, {
+    "name" : "testClass",
+    "value" : "API ./GET background.png"
+  }, {
+    "name" : "testMethod",
+    "value" : "check existence background.png"
+  }, {
+    "name" : "package",
+    "value" : "API ./GET background.png"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "46c40cb2af57bdba.json",
+  "statusDetailsSafe" : {
+    "message" : "\n                      AssertionError: expected [Error: Not Found] to have status code 200 but got 404\n                      + expected - actual\n                \n                      -404\n                      +200\n                      ",
+    "trace" : "      at Context.it (test/auth.js:101:27)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

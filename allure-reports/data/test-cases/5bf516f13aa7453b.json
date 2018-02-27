@@ -1,0 +1,53 @@
+{
+  "uid" : "5bf516f13aa7453b",
+  "name" : "register with incorrect sex (await status 400)",
+  "fullName" : "API ./Register of new user check status of request.register with incorrect sex (await status 400)",
+  "historyId" : "8978bd10b6786c24915d720d7f8a1d6d",
+  "time" : {
+    "start" : 1519683114612,
+    "stop" : 1519683114808,
+    "duration" : 196
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "\n                      AssertionError: expected { Object (domain, _events, ...) } to have status code 400 but got 200\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+    "trace" : "      at Context.it (test/register.js:206:31)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API ./Register of new user check status of request"
+  }, {
+    "name" : "testClass",
+    "value" : "API ./Register of new user check status of request"
+  }, {
+    "name" : "testMethod",
+    "value" : "register with incorrect sex (await status 400)"
+  }, {
+    "name" : "package",
+    "value" : "API ./Register of new user check status of request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "5bf516f13aa7453b.json",
+  "statusDetailsSafe" : {
+    "message" : "\n                      AssertionError: expected { Object (domain, _events, ...) } to have status code 400 but got 200\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+    "trace" : "      at Context.it (test/register.js:206:31)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,138 @@
+{
+  "uid" : "b10fa7c0ae7a46ed",
+  "name" : "with correct login and incorrect password (await 400)",
+  "fullName" : "API ./POST Login and check statuses.with correct login and incorrect password (await 400)",
+  "historyId" : "b2abddf23ec8ed3ec1ca7545d39cb3c",
+  "time" : {
+    "start" : 1519717975082,
+    "stop" : 1519717975238,
+    "duration" : 156
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "\n                      AssertionError: expected 200 to equal 400\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+    "trace" : "      at allure.createStep (test/auth.js:10:28)\n                      at node_modules/allure-js-commons/runtime.js:18:31\n                      at Context.it (test/auth.js:31:13)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "flaky" : true
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusDetails" : {
+      "message" : "\n                      AssertionError: expected 200 to equal 400\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+      "trace" : "      at allure.createStep (test/auth.js:10:28)\n                      at node_modules/allure-js-commons/runtime.js:18:31\n                      at Context.it (test/auth.js:31:13)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+      "flaky" : true
+    },
+    "steps" : [ {
+      "name" : "Authorization; Login - __joey12___, Pass - qdadad12w2",
+      "time" : {
+        "start" : 1519717975082,
+        "stop" : 1519717975234,
+        "duration" : 152
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check status; Actual - 200, Expect - 400",
+      "time" : {
+        "start" : 1519717975234,
+        "stop" : 1519717975235,
+        "duration" : 1
+      },
+      "status" : "broken",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API ./POST Login and check statuses"
+  }, {
+    "name" : "testClass",
+    "value" : "API ./POST Login and check statuses"
+  }, {
+    "name" : "testMethod",
+    "value" : "with correct login and incorrect password (await 400)"
+  }, {
+    "name" : "package",
+    "value" : "API ./POST Login and check statuses"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dec0d2889146099d",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected { Object (domain, _events, ...) } to have status code 400 but got 200\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+      "time" : {
+        "start" : 1519683133129,
+        "stop" : 1519683133343,
+        "duration" : 214
+      }
+    }, {
+      "uid" : "d8aebce941864eb3",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected { Object (domain, _events, ...) } to have status code 400 but got 200\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+      "time" : {
+        "start" : 1519683110633,
+        "stop" : 1519683110789,
+        "duration" : 156
+      }
+    }, {
+      "uid" : "3ed6903dd4bc25db",
+      "status" : "failed",
+      "statusDetails" : "\n                      AssertionError: expected { Object (domain, _events, ...) } to have status code 400 but got 200\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+      "time" : {
+        "start" : 1519683001505,
+        "stop" : 1519683001719,
+        "duration" : 214
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b10fa7c0ae7a46ed.json",
+  "statusDetailsSafe" : {
+    "message" : "\n                      AssertionError: expected 200 to equal 400\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+    "trace" : "      at allure.createStep (test/auth.js:10:28)\n                      at node_modules/allure-js-commons/runtime.js:18:31\n                      at Context.it (test/auth.js:31:13)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

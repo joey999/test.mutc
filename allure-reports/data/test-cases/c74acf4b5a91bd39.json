@@ -1,0 +1,49 @@
+{
+  "uid" : "c74acf4b5a91bd39",
+  "name" : "and try to login by new created user",
+  "fullName" : "API ./Register of new user.and try to login by new created user",
+  "historyId" : "e6a3c61eea1977830f5fd5a09d3c6b85",
+  "time" : {
+    "start" : 1519683003991,
+    "stop" : 1519683004408,
+    "duration" : 417
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API ./Register of new user"
+  }, {
+    "name" : "testClass",
+    "value" : "API ./Register of new user"
+  }, {
+    "name" : "testMethod",
+    "value" : "and try to login by new created user"
+  }, {
+    "name" : "package",
+    "value" : "API ./Register of new user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "c74acf4b5a91bd39.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,182 @@
+{
+  "uid" : "369da4c507ea0f0f",
+  "name" : "Try to create user with incorrect password field (with spaces)",
+  "fullName" : "Register new user.Try to create user with incorrect password field (with spaces)",
+  "historyId" : "5c886c8d8d788ca59e22f98f5a088abf",
+  "time" : {
+    "start" : 1519689287499,
+    "stop" : 1519689330620,
+    "duration" : 43121
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "Expected - 'password incorrect', actual - 'Congratulations! You have been successfully registered.'",
+    "trace" : "./features/support/env.rb:47:in `manual_YesNo'\r\n./features/step_definitions/auth_steps.rb:2:in `/^I should see message '(.*)'$/'\r\nfeatures/Register.feature:73:in `Then I should see message '- password incorrect''",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusDetails" : {
+      "message" : "Expected - 'password incorrect', actual - 'Congratulations! You have been successfully registered.'",
+      "trace" : "./features/support/env.rb:47:in `manual_YesNo'\r\n./features/step_definitions/auth_steps.rb:2:in `/^I should see message '(.*)'$/'\r\nfeatures/Register.feature:73:in `Then I should see message '- password incorrect''",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "I go to /cgi-bin/bug.pl?action=register page",
+      "time" : {
+        "start" : 1519689320839,
+        "stop" : 1519689320839,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I set fields manual:",
+      "time" : {
+        "start" : 1519689320839,
+        "stop" : 1519689320849,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ba37d244d2590c4a",
+        "name" : "multiline_arg",
+        "source" : "ba37d244d2590c4a.txt",
+        "type" : "text/plain",
+        "size" : 236
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I click 'Register' button manual",
+      "time" : {
+        "start" : 1519689320849,
+        "stop" : 1519689326893,
+        "duration" : 6044
+      },
+      "status" : "passed",
+      "statusDetails" : {
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "27303b2c8301f6e5",
+        "name" : "./screenshot_2018-02-27-02-56-16.368.png",
+        "source" : "27303b2c8301f6e5.png",
+        "type" : "image/png",
+        "size" : 37349
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I should see message '- password incorrect'",
+      "time" : {
+        "start" : 1519689326893,
+        "stop" : 1519689330445,
+        "duration" : 3552
+      },
+      "status" : "failed",
+      "statusDetails" : {
+        "message" : "Expected - 'password incorrect', actual - 'Congratulations! You have been successfully registered.'",
+        "trace" : "./features/support/env.rb:47:in `manual_YesNo'\r\n./features/step_definitions/auth_steps.rb:2:in `/^I should see message '(.*)'$/'\r\nfeatures/Register.feature:73:in `Then I should see message '- password incorrect''",
+        "flaky" : false
+      },
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "33cfb7e0a0887926",
+        "name" : "./screenshot_2018-02-27-02-56-19.486.png",
+        "source" : "33cfb7e0a0887926.png",
+        "type" : "image/png",
+        "size" : 37349
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Register new user"
+  }, {
+    "name" : "host",
+    "value" : "iMac-evgeniy.gotech.local"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Try to create user with incorrect password field (with spaces)"
+  }, {
+    "name" : "thread",
+    "value" : "70182613817300"
+  }, {
+    "name" : "suite",
+    "value" : "Register new user"
+  }, {
+    "name" : "testClass",
+    "value" : "Register new user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Try to create user with incorrect password field (with spaces)"
+  }, {
+    "name" : "package",
+    "value" : "Register new user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "369da4c507ea0f0f.json",
+  "statusDetailsSafe" : {
+    "message" : "Expected - 'password incorrect', actual - 'Congratulations! You have been successfully registered.'",
+    "trace" : "./features/support/env.rb:47:in `manual_YesNo'\r\n./features/step_definitions/auth_steps.rb:2:in `/^I should see message '(.*)'$/'\r\nfeatures/Register.feature:73:in `Then I should see message '- password incorrect''",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

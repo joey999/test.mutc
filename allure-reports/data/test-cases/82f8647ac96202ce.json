@@ -1,0 +1,53 @@
+{
+  "uid" : "82f8647ac96202ce",
+  "name" : "register with incorrect email (await status 400)",
+  "fullName" : "API ./Register of new user check status of request.register with incorrect email (await status 400)",
+  "historyId" : "d1d99ce121a83057ea421658f7cf4b53",
+  "time" : {
+    "start" : 1519683113831,
+    "stop" : 1519683114025,
+    "duration" : 194
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "\n                      AssertionError: expected { Object (domain, _events, ...) } to have status code 400 but got 200\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+    "trace" : "      at Context.it (test/register.js:130:31)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API ./Register of new user check status of request"
+  }, {
+    "name" : "testClass",
+    "value" : "API ./Register of new user check status of request"
+  }, {
+    "name" : "testMethod",
+    "value" : "register with incorrect email (await status 400)"
+  }, {
+    "name" : "package",
+    "value" : "API ./Register of new user check status of request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "82f8647ac96202ce.json",
+  "statusDetailsSafe" : {
+    "message" : "\n                      AssertionError: expected { Object (domain, _events, ...) } to have status code 400 but got 200\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+    "trace" : "      at Context.it (test/register.js:130:31)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

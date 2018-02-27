@@ -1,0 +1,212 @@
+{
+  "uid" : "35dab4b99ece2413",
+  "name" : "Check fields",
+  "fullName" : "Register new user.Check fields",
+  "historyId" : "4a43a11027d4f2b85dbab886543add59",
+  "time" : {
+    "start" : 1519689089041,
+    "stop" : 1519689098134,
+    "duration" : 9093
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I go to /cgi-bin/bug.pl?action=register page",
+      "time" : {
+        "start" : 1519689089923,
+        "stop" : 1519689089923,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I should see 'login' input",
+      "time" : {
+        "start" : 1519689089923,
+        "stop" : 1519689089923,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I should see 'email' input",
+      "time" : {
+        "start" : 1519689089923,
+        "stop" : 1519689090612,
+        "duration" : 689
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ba92fa4711cac1de",
+        "name" : "./screenshot_2018-02-27-02-51-37.944.png",
+        "source" : "ba92fa4711cac1de.png",
+        "type" : "image/png",
+        "size" : 53847
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I should see 'password' input",
+      "time" : {
+        "start" : 1519689090612,
+        "stop" : 1519689091322,
+        "duration" : 710
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ba92fa4711cac1de",
+        "name" : "./screenshot_2018-02-27-02-51-37.944.png",
+        "source" : "ba92fa4711cac1de.png",
+        "type" : "image/png",
+        "size" : 53847
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I should see 'password_confirm' input",
+      "time" : {
+        "start" : 1519689091322,
+        "stop" : 1519689092051,
+        "duration" : 729
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ba92fa4711cac1de",
+        "name" : "./screenshot_2018-02-27-02-51-37.944.png",
+        "source" : "ba92fa4711cac1de.png",
+        "type" : "image/png",
+        "size" : 53847
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I should see 'sex' 'option' manual",
+      "time" : {
+        "start" : 1519689092051,
+        "stop" : 1519689096188,
+        "duration" : 4137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ba92fa4711cac1de",
+        "name" : "./screenshot_2018-02-27-02-51-37.944.png",
+        "source" : "ba92fa4711cac1de.png",
+        "type" : "image/png",
+        "size" : 53847
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I should see 'news' 'checkbox' manual",
+      "time" : {
+        "start" : 1519689096188,
+        "stop" : 1519689098107,
+        "duration" : 1919
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ba92fa4711cac1de",
+        "name" : "./screenshot_2018-02-27-02-51-37.944.png",
+        "source" : "ba92fa4711cac1de.png",
+        "type" : "image/png",
+        "size" : 53847
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Register new user"
+  }, {
+    "name" : "host",
+    "value" : "iMac-evgeniy.gotech.local"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Check fields"
+  }, {
+    "name" : "thread",
+    "value" : "70182613817300"
+  }, {
+    "name" : "suite",
+    "value" : "Register new user"
+  }, {
+    "name" : "testClass",
+    "value" : "Register new user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check fields"
+  }, {
+    "name" : "package",
+    "value" : "Register new user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35dab4b99ece2413.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

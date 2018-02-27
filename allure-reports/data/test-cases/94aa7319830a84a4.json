@@ -1,0 +1,116 @@
+{
+  "uid" : "94aa7319830a84a4",
+  "name" : "with correct login and correct password (await 200)",
+  "fullName" : "API ./POST Login and check statuses.with correct login and correct password (await 200)",
+  "historyId" : "3bf06da3337c7d14fbdcaea3122ccb14",
+  "time" : {
+    "start" : 1519717974773,
+    "stop" : 1519717975082,
+    "duration" : 309
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Authorization; Login - __joey12___, Pass - 12345678",
+      "time" : {
+        "start" : 1519717974774,
+        "stop" : 1519717975080,
+        "duration" : 306
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check status; Actual - 200, Expect - 200",
+      "time" : {
+        "start" : 1519717975080,
+        "stop" : 1519717975081,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API ./POST Login and check statuses"
+  }, {
+    "name" : "testClass",
+    "value" : "API ./POST Login and check statuses"
+  }, {
+    "name" : "testMethod",
+    "value" : "with correct login and correct password (await 200)"
+  }, {
+    "name" : "package",
+    "value" : "API ./POST Login and check statuses"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "df773c59970f978e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519683132915,
+        "stop" : 1519683133128,
+        "duration" : 213
+      }
+    }, {
+      "uid" : "697ecd4a5764e5ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519683110393,
+        "stop" : 1519683110632,
+        "duration" : 239
+      }
+    }, {
+      "uid" : "586d67a64a4efdf0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519683001231,
+        "stop" : 1519683001505,
+        "duration" : 274
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94aa7319830a84a4.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

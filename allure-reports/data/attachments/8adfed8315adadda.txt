@@ -1,0 +1,6 @@
+
+  |     Login            |     test_zaq12wsx |
+  |     Email            |     zaqq@za@a.ru  |
+  |     Password         |     12345678      |
+  |     Confirm password |     12345678      |
+  |     Your sex         |     male          |

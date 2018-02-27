@@ -1,0 +1,49 @@
+{
+  "uid" : "e17bfac4e24c876",
+  "name" : "register with correct values (await status 200)",
+  "fullName" : "API ./Register of new user check status of request.register with correct values (await status 200)",
+  "historyId" : "b269e8976fb00eda29501a61c8ee5ad6",
+  "time" : {
+    "start" : 1519683113674,
+    "stop" : 1519683113831,
+    "duration" : 157
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API ./Register of new user check status of request"
+  }, {
+    "name" : "testClass",
+    "value" : "API ./Register of new user check status of request"
+  }, {
+    "name" : "testMethod",
+    "value" : "register with correct values (await status 200)"
+  }, {
+    "name" : "package",
+    "value" : "API ./Register of new user check status of request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "e17bfac4e24c876.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

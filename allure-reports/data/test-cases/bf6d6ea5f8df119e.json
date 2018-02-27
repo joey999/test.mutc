@@ -1,0 +1,49 @@
+{
+  "uid" : "bf6d6ea5f8df119e",
+  "name" : "register with incorrect password_confirm (does not match with password field)",
+  "fullName" : "API ./Register of new user check text response of.register with incorrect password_confirm (does not match with password field)",
+  "historyId" : "d9661213e341a0f5ae22e0bc66202efc",
+  "time" : {
+    "start" : 1519683005270,
+    "stop" : 1519683005437,
+    "duration" : 167
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API ./Register of new user check text response of"
+  }, {
+    "name" : "testClass",
+    "value" : "API ./Register of new user check text response of"
+  }, {
+    "name" : "testMethod",
+    "value" : "register with incorrect password_confirm (does not match with password field)"
+  }, {
+    "name" : "package",
+    "value" : "API ./Register of new user check text response of"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "bf6d6ea5f8df119e.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

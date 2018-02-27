@@ -1,0 +1,106 @@
+{
+  "uid" : "8bd73c559b4b8dd8",
+  "name" : "register with incorrect login (count of symbols more than 16)",
+  "fullName" : "API ./Register of new user check text response of.register with incorrect login (count of symbols more than 16)",
+  "historyId" : "a3d5cefcaa0586c92a00156f407e5d47",
+  "time" : {
+    "start" : 1519717976968,
+    "stop" : 1519717977115,
+    "duration" : 147
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Registration;",
+      "time" : {
+        "start" : 1519717976968,
+        "stop" : 1519717977114,
+        "duration" : 146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6c2a76a97959a002",
+        "name" : "Data",
+        "source" : "6c2a76a97959a002.txt",
+        "type" : "text/plain",
+        "size" : 148
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Checking the expected value; Actual - \n                    <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">\n                    <html>\n                    <head>\n                        <title>\n                            \n                            Welcome to our buggy system!\n                            \n                        </title>\n                        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n                        <style type=\"text/css\">\n                            div.content {\n                                width: 440px;\n                                padding: 10px;\n                                background-color: greenyellow;\n                                border: 1px solid #93d928;\n                                -moz-border-radius: 10px;\n                                -webkit-border-radius: 10px;\n                            }\n                    \n                            table.logo {\n                                background: url( \"/img/background.png\" );\n                                background-repeat: no-repeat;\n                                width: 402px;\n                                height: 285px;\n                            }\n                    \n                            span.message {\n                                color: green;\n                            }\n                    \n                            div.error {\n                                width: 440px;\n                                padding: 10px;\n                                border: 1px solid coral;\n                                margin-bottom: 10px;\n                                text-align: left;\n                                -moz-border-radius: 10px;\n                                -webkit-border-radius: 10px;\n                            }\n                        </style>\n                    </head>\n                    <body>\n                    <table width=\"100%\" height=\"100%\" border=\"0\">\n                        <tr align=\"center\" valign=\"middle\">\n                            <td>\n                                <table class=\"logo\" border=\"0\">\n                                    <tr align=\"center\" valign=\"middle\">\n                                        <td>\n                                            \n                                            <div class=\"error\">\n                                                \n                                                - login must be 4-16 symbol length<br>\n                                                \n                                            </div>\n                                            \n                                            <div class=\"content\">\n                                                \n                                                \n                                                \n                                                <table border=\"0\">\n                        <form action=\"\" method=\"post\">\n                            <input type=\"hidden\" name=\"action\" value=\"register_do\">\n                            <tr>\n                                <td>Login</td>\n                                <td>\n                                    <input type=\"text\" name=\"login\" value=\"test_123456789012345678\">\n                                </td>\n                            </tr>\n                            <tr>\n                                <td>Email</td>\n                                <td>\n                                    <input type=\"text\" name=\"email\" maxlength=\"32\" value=\"test_email_745@454.ru\">\n                                </td>\n                            </tr>\n                            <tr>\n                                <td>Password (8-16 symbols)</td>\n                                <td>\n                                    <input type=\"text\" name=\"password\" maxlength=\"16\" value=\"12345678\">\n                                </td>\n                            </tr>\n                            <tr>\n                                <td>Confirm password</td>\n                                <td>\n                                    <input type=\"text\" name=\"password_confirm\" maxlength=\"16\"\n                                           value=\"12345678\">\n                                </td>\n                            </tr>\n                            <tr>\n                                <td>Your sex</td>\n                                <td>\n                                    <select name=\"sex\">\n                                        <option value=\"male\">male</option>\n                                        <option value=\"female\">female</option>\n                                        <option value=\"none\">none</option>\n                                    </select>\n                                </td>\n                            </tr>\n                            <tr>\n                                <td>Subscribe to our news</td>\n                                <td><input type=\"checkbox\" name=\"news\" ></td>\n                            </tr>\n                            <tr>\n                                <td>\n                                    <input type=\"button\" value=\"Back\" onclick=\"window.location='?action=login'\">\n                                </td>\n                                <td align=\"right\">\n                                    <input type=\"reset\" value=\"Reset\">&nbsp;<input type=\"submit\" value=\"Register\">\n                                </td>\n                            </tr>\n                        </form>\n                    </table>\n                                                \n                                                \n                                            </div>\n                                        </td>\n                                    </tr>\n                                </table>\n                            </td>\n                        </tr>\n                    </table>\n                    <script>\n                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n                    \n                      ga('create', 'UA-45669254-2', 'auto');\n                      ga('send', 'pageview');\n                    \n                    </script>\n                    </body>\n                    </html>\n                    , include expect - login must be 4-16 symbol length",
+      "time" : {
+        "start" : 1519717977114,
+        "stop" : 1519717977114,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API ./Register of new user check text response of"
+  }, {
+    "name" : "testClass",
+    "value" : "API ./Register of new user check text response of"
+  }, {
+    "name" : "testMethod",
+    "value" : "register with incorrect login (count of symbols more than 16)"
+  }, {
+    "name" : "package",
+    "value" : "API ./Register of new user check text response of"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "71283fbe5f51f64e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519683004859,
+        "stop" : 1519683005068,
+        "duration" : 209
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8bd73c559b4b8dd8.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

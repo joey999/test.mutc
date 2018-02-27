@@ -1,0 +1,53 @@
+{
+  "uid" : "2835c2c7dbdadea3",
+  "name" : "register with incorrect login (count of symbols more than 16) (await status 400)",
+  "fullName" : "API ./Register of new user check status of request.register with incorrect login (count of symbols more than 16) (await status 400)",
+  "historyId" : "96bdcf838ff8c0f878007d0a5c52a3b5",
+  "time" : {
+    "start" : 1519683114025,
+    "stop" : 1519683114215,
+    "duration" : 190
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "\n                      AssertionError: expected { Object (domain, _events, ...) } to have status code 400 but got 200\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+    "trace" : "      at Context.it (test/register.js:149:31)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API ./Register of new user check status of request"
+  }, {
+    "name" : "testClass",
+    "value" : "API ./Register of new user check status of request"
+  }, {
+    "name" : "testMethod",
+    "value" : "register with incorrect login (count of symbols more than 16) (await status 400)"
+  }, {
+    "name" : "package",
+    "value" : "API ./Register of new user check status of request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "2835c2c7dbdadea3.json",
+  "statusDetailsSafe" : {
+    "message" : "\n                      AssertionError: expected { Object (domain, _events, ...) } to have status code 400 but got 200\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+    "trace" : "      at Context.it (test/register.js:149:31)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

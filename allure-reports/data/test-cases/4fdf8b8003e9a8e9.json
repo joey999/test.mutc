@@ -1,0 +1,49 @@
+{
+  "uid" : "4fdf8b8003e9a8e9",
+  "name" : "register with incorrect sex",
+  "fullName" : "API ./Register of new user check text response of.register with incorrect sex",
+  "historyId" : "6e6de5a0a307bc55429763ea14c669d8",
+  "time" : {
+    "start" : 1519683005437,
+    "stop" : 1519683005590,
+    "duration" : 153
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API ./Register of new user check text response of"
+  }, {
+    "name" : "testClass",
+    "value" : "API ./Register of new user check text response of"
+  }, {
+    "name" : "testMethod",
+    "value" : "register with incorrect sex"
+  }, {
+    "name" : "package",
+    "value" : "API ./Register of new user check text response of"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "4fdf8b8003e9a8e9.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

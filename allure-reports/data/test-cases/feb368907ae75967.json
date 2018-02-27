@@ -1,0 +1,155 @@
+{
+  "uid" : "feb368907ae75967",
+  "name" : "Try to create user with incorrect field 'confirm password'",
+  "fullName" : "Register new user.Try to create user with incorrect field 'confirm password'",
+  "historyId" : "637322e3cb7cfea0a0aee4f05766f619",
+  "time" : {
+    "start" : 1519689242591,
+    "stop" : 1519689287498,
+    "duration" : 44907
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I go to /cgi-bin/bug.pl?action=register page",
+      "time" : {
+        "start" : 1519689276367,
+        "stop" : 1519689276367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I set fields manual:",
+      "time" : {
+        "start" : 1519689276367,
+        "stop" : 1519689276368,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9cffafc392cb42a7",
+        "name" : "multiline_arg",
+        "source" : "9cffafc392cb42a7.txt",
+        "type" : "text/plain",
+        "size" : 236
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I click 'Register' button manual",
+      "time" : {
+        "start" : 1519689276368,
+        "stop" : 1519689283849,
+        "duration" : 7481
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e4fbcef86881cc7e",
+        "name" : "./screenshot_2018-02-27-02-54-43.676.png",
+        "source" : "e4fbcef86881cc7e.png",
+        "type" : "image/png",
+        "size" : 69172
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I should see message '- password doesn't match confirmation'",
+      "time" : {
+        "start" : 1519689283849,
+        "stop" : 1519689287471,
+        "duration" : 3622
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "35a268960996db93",
+        "name" : "./screenshot_2018-02-27-02-54-47.299.png",
+        "source" : "35a268960996db93.png",
+        "type" : "image/png",
+        "size" : 69172
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Register new user"
+  }, {
+    "name" : "host",
+    "value" : "iMac-evgeniy.gotech.local"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Try to create user with incorrect field 'confirm password'"
+  }, {
+    "name" : "thread",
+    "value" : "70182613817300"
+  }, {
+    "name" : "suite",
+    "value" : "Register new user"
+  }, {
+    "name" : "testClass",
+    "value" : "Register new user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Try to create user with incorrect field 'confirm password'"
+  }, {
+    "name" : "package",
+    "value" : "Register new user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "feb368907ae75967.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

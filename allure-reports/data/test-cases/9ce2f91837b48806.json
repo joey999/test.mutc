@@ -1,0 +1,136 @@
+{
+  "uid" : "9ce2f91837b48806",
+  "name" : "and try to login by new created user",
+  "fullName" : "API ./Register of new user.and try to login by new created user",
+  "historyId" : "e6a3c61eea1977830f5fd5a09d3c6b85",
+  "time" : {
+    "start" : 1519717976289,
+    "stop" : 1519717976659,
+    "duration" : 370
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Registration;",
+      "time" : {
+        "start" : 1519717976289,
+        "stop" : 1519717976497,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e4a40a57f93916d1",
+        "name" : "Data",
+        "source" : "e4a40a57f93916d1.txt",
+        "type" : "text/plain",
+        "size" : 135
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Authorization; Login - test_81422, Pass - 12345678",
+      "time" : {
+        "start" : 1519717976497,
+        "stop" : 1519717976659,
+        "duration" : 162
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check status; Actual - 200, Expect - 200",
+      "time" : {
+        "start" : 1519717976659,
+        "stop" : 1519717976659,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Checking the expected value; Actual - \n                    <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">\n                    <html>\n                    <head>\n                        <title>\n                            \n                            Successfully authorized!\n                            \n                        </title>\n                        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n                        <style type=\"text/css\">\n                            div.content {\n                                width: 440px;\n                                padding: 10px;\n                                background-color: greenyellow;\n                                border: 1px solid #93d928;\n                                -moz-border-radius: 10px;\n                                -webkit-border-radius: 10px;\n                            }\n                    \n                            table.logo {\n                                background: url( \"/img/background.png\" );\n                                background-repeat: no-repeat;\n                                width: 402px;\n                                height: 285px;\n                            }\n                    \n                            span.message {\n                                color: green;\n                            }\n                    \n                            div.error {\n                                width: 440px;\n                                padding: 10px;\n                                border: 1px solid coral;\n                                margin-bottom: 10px;\n                                text-align: left;\n                                -moz-border-radius: 10px;\n                                -webkit-border-radius: 10px;\n                            }\n                        </style>\n                    </head>\n                    <body>\n                    <table width=\"100%\" height=\"100%\" border=\"0\">\n                        <tr align=\"center\" valign=\"middle\">\n                            <td>\n                                <table class=\"logo\" border=\"0\">\n                                    <tr align=\"center\" valign=\"middle\">\n                                        <td>\n                                            \n                                            <div class=\"content\">\n                                                \n                                                <span class=\"message\">Successfully authorized!</span>\n                                                \n                                                \n                                                \n                                                \n                                            </div>\n                                        </td>\n                                    </tr>\n                                </table>\n                            </td>\n                        </tr>\n                    </table>\n                    <script>\n                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n                    \n                      ga('create', 'UA-45669254-2', 'auto');\n                      ga('send', 'pageview');\n                    \n                    </script>\n                    </body>\n                    </html>\n                    , include expect - Successfully authorized!",
+      "time" : {
+        "start" : 1519717976659,
+        "stop" : 1519717976659,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API ./Register of new user"
+  }, {
+    "name" : "testClass",
+    "value" : "API ./Register of new user"
+  }, {
+    "name" : "testMethod",
+    "value" : "and try to login by new created user"
+  }, {
+    "name" : "package",
+    "value" : "API ./Register of new user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c74acf4b5a91bd39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1519683003991,
+        "stop" : 1519683004408,
+        "duration" : 417
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ce2f91837b48806.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

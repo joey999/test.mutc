@@ -1,0 +1,53 @@
+{
+  "uid" : "9ad04d2375793868",
+  "name" : "with incorrect login and incorrect password (await 400)",
+  "fullName" : "API ./POST Login and check statuses.with incorrect login and incorrect password (await 400)",
+  "historyId" : "fca03f34021f63eedc883f3216735ff9",
+  "time" : {
+    "start" : 1519683001719,
+    "stop" : 1519683002112,
+    "duration" : 393
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "\n                      AssertionError: expected { Object (domain, _events, ...) } to have status code 400 but got 200\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+    "trace" : "      at Context.it (test/auth.js:34:30)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API ./POST Login and check statuses"
+  }, {
+    "name" : "testClass",
+    "value" : "API ./POST Login and check statuses"
+  }, {
+    "name" : "testMethod",
+    "value" : "with incorrect login and incorrect password (await 400)"
+  }, {
+    "name" : "package",
+    "value" : "API ./POST Login and check statuses"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "9ad04d2375793868.json",
+  "statusDetailsSafe" : {
+    "message" : "\n                      AssertionError: expected { Object (domain, _events, ...) } to have status code 400 but got 200\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
+    "trace" : "      at Context.it (test/auth.js:34:30)\n                      at <anonymous>\n                      at process._tickCallback (internal/process/next_tick.js:188:7)",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

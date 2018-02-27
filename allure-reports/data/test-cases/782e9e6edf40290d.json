@@ -1,0 +1,149 @@
+{
+  "uid" : "782e9e6edf40290d",
+  "name" : "entering login page",
+  "fullName" : "Login to site.entering login page",
+  "historyId" : "f3af24b8654e45f7b819e0b2c49d50ba",
+  "time" : {
+    "start" : 1519689063022,
+    "stop" : 1519689072423,
+    "duration" : 9401
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I go to /cgi-bin/bug.pl?action=login page",
+      "time" : {
+        "start" : 1519689069746,
+        "stop" : 1519689069746,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I should see 'login' input",
+      "time" : {
+        "start" : 1519689069746,
+        "stop" : 1519689069746,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I should see 'password' input",
+      "time" : {
+        "start" : 1519689069746,
+        "stop" : 1519689070833,
+        "duration" : 1087
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f3888f60b10158d0",
+        "name" : "./screenshot_2018-02-27-02-51-11.371.png",
+        "source" : "f3888f60b10158d0.png",
+        "type" : "image/png",
+        "size" : 34148
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "I should see a 'Login' button",
+      "time" : {
+        "start" : 1519689070833,
+        "stop" : 1519689072398,
+        "duration" : 1565
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f3888f60b10158d0",
+        "name" : "./screenshot_2018-02-27-02-51-11.371.png",
+        "source" : "f3888f60b10158d0.png",
+        "type" : "image/png",
+        "size" : 34148
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login to site"
+  }, {
+    "name" : "host",
+    "value" : "iMac-evgeniy.gotech.local"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "entering login page"
+  }, {
+    "name" : "thread",
+    "value" : "70182613817300"
+  }, {
+    "name" : "suite",
+    "value" : "Login to site"
+  }, {
+    "name" : "testClass",
+    "value" : "Login to site"
+  }, {
+    "name" : "testMethod",
+    "value" : "entering login page"
+  }, {
+    "name" : "package",
+    "value" : "Login to site"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "782e9e6edf40290d.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,158 @@
+{
+  "uid" : "dd9430cf3578af86",
+  "name" : "Login by incorrect user and incorrect password",
+  "fullName" : "Login to site.Login by incorrect user and incorrect password",
+  "historyId" : "df623046b3161d4d080885b02e844639",
+  "time" : {
+    "start" : 1519689084167,
+    "stop" : 1519689085916,
+    "duration" : 1749
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I go to /cgi-bin/bug.pl?action=login page",
+      "time" : {
+        "start" : 1519689084398,
+        "stop" : 1519689084398,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I enter 'xzqwdzas' in 'login' input",
+      "time" : {
+        "start" : 1519689084398,
+        "stop" : 1519689084398,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I enter '123456789' in 'password' input",
+      "time" : {
+        "start" : 1519689084399,
+        "stop" : 1519689084455,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I click 'Login' button",
+      "time" : {
+        "start" : 1519689084455,
+        "stop" : 1519689084650,
+        "duration" : 195
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "I should see message 'Login or password is invalid!'",
+      "time" : {
+        "start" : 1519689084650,
+        "stop" : 1519689085891,
+        "duration" : 1241
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1ef18163dc93cc17",
+        "name" : "./screenshot_2018-02-27-02-51-25.726.png",
+        "source" : "1ef18163dc93cc17.png",
+        "type" : "image/png",
+        "size" : 42507
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login to site"
+  }, {
+    "name" : "host",
+    "value" : "iMac-evgeniy.gotech.local"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Login by incorrect user and incorrect password"
+  }, {
+    "name" : "thread",
+    "value" : "70182613817300"
+  }, {
+    "name" : "suite",
+    "value" : "Login to site"
+  }, {
+    "name" : "testClass",
+    "value" : "Login to site"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login by incorrect user and incorrect password"
+  }, {
+    "name" : "package",
+    "value" : "Login to site"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd9430cf3578af86.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

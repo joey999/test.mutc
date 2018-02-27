@@ -1,0 +1,6 @@
+
+  |     Login            |     test_zaasdasdq12wsx |
+  |     Email            |     zaqq@za@ asd.ru     |
+  |     Password         |     1235678             |
+  |     Confirm password |     12345678            |
+  |     Your sex         |     male                |
