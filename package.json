@@ -4,7 +4,9 @@
   "description": "Testing test.mutc.ru project",
   "private": true,
   "scripts": {
-    "Auth": "multi=\"mocha-osx-reporter=- spec=- mocha-allure-reporter=-\" mocha ./test/test.js --timeout 100000 --reporter mocha-multi || true"
+    "test": "multi=\"mocha-osx-reporter=- spec=- mocha-allure-reporter=-\" mocha ./test/*.js --timeout 100000 --reporter mocha-multi || true",
+    "register": "multi=\"mocha-osx-reporter=- spec=- mocha-allure-reporter=-\" mocha ./test/register.js --timeout 100000 --reporter mocha-multi || true",
+    "allure": "allure generate allure-results --clean -o allure-reports"
   },
   "author": "Zvonkovich E.S.",
   "license": "ISC",
