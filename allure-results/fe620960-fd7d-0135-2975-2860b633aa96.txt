@@ -1,0 +1,6 @@
+
+  |     Login            |      |
+  |     Email            |      |
+  |     Password         |      |
+  |     Confirm password |      |
+  |     Your sex         |      |

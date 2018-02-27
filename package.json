@@ -5,7 +5,6 @@
   "private": true,
   "scripts": {
     "test": "multi=\"mocha-osx-reporter=- spec=- mocha-allure-reporter=-\" mocha ./test/*.js --timeout 100000 --reporter mocha-multi || true",
-    "register": "multi=\"mocha-osx-reporter=- spec=- mocha-allure-reporter=-\" mocha ./test/register.js --timeout 100000 --reporter mocha-multi || true",
     "allure": "allure generate allure-results --clean -o allure-reports"
   },
   "author": "Zvonkovich E.S.",

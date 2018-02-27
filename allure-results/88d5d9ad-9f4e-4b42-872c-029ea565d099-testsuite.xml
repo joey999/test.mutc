@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1519683111241' stop='1519683112087'>
+    <name>API ./POST Login and check text</name>
+    <title>API ./POST Login and check text</title>
+    <test-cases>
+        <test-case start='1519683111241' status='passed' stop='1519683111403'>
+            <name>with correct login and correct password (await 'Successfully authorized!')</name>
+            <title>with correct login and correct password (await 'Successfully authorized!')</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1519683111403' status='passed' stop='1519683111630'>
+            <name>with correct login and incorrect password (await 'Login or password is invalid!')</name>
+            <title>with correct login and incorrect password (await 'Login or password is invalid!')</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1519683111630' status='passed' stop='1519683111820'>
+            <name>with incorrect login and incorrect password (await 'Login or password is invalid!')</name>
+            <title>with incorrect login and incorrect password (await 'Login or password is invalid!')</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1519683111820' status='passed' stop='1519683112087'>
+            <name>with empty login and empty password (await 'Login or password is invalid!')</name>
+            <title>with empty login and empty password (await 'Login or password is invalid!')</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1519683003991' stop='1519683006621'>
+    <name>API ./Register of new user</name>
+    <title>API ./Register of new user</title>
+    <test-cases>
+        <test-case start='1519683003991' status='passed' stop='1519683004408'>
+            <name>and try to login by new created user</name>
+            <title>and try to login by new created user</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

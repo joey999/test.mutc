@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1519689062928" stop="1519689089039">
+  <name>UI ./Login to site</name>
+  <title>UI ./Login to site</title>
+  <test-cases>
+    <test-case start="1519689063022" stop="1519689072423" status="passed">
+      <name>entering login page</name>
+      <title>entering login page</title>
+      <steps>
+        <step start="1519689069746" stop="1519689069746" status="passed">
+          <name>I go to /cgi-bin/bug.pl?action=login page</name>
+          <title>I go to /cgi-bin/bug.pl?action=login page</title>
+          <attachments/>
+        </step>
+        <step start="1519689069746" stop="1519689069746" status="passed">
+          <name>I should see 'login' input</name>
+          <title>I should see 'login' input</title>
+          <attachments/>
+        </step>
+        <step start="1519689069746" stop="1519689070833" status="passed">
+          <name>I should see 'password' input</name>
+          <title>I should see 'password' input</title>
+          <attachments>
+            <attachment source="5fb2dfe2d833ca237ea7803151c167752136f897fa2cf626c7ee11eb86c96144-attachment.png" title="./screenshot_2018-02-27-02-51-10.292.png" size="34148" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1519689070833" stop="1519689072398" status="passed">
+          <name>I should see a 'Login' button</name>
+          <title>I should see a 'Login' button</title>
+          <attachments>
+            <attachment source="5fb2dfe2d833ca237ea7803151c167752136f897fa2cf626c7ee11eb86c96144-attachment.png" title="./screenshot_2018-02-27-02-51-11.371.png" size="34148" type="image/png"/>
+          </attachments>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70182613817300"/>
+        <label name="host" value="iMac-evgeniy.gotech.local"/>
+        <label name="feature" value="Login to site"/>
+        <label name="story" value="entering login page"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1519689072426" stop="1519689078234" status="passed">
+      <name>Login by correct user and correct password</name>
+      <title>Login by correct user and correct password</title>
+      <steps>
+        <step start="1519689072983" stop="1519689072983" status="passed">
+          <name>I go to /cgi-bin/bug.pl?action=login page</name>
+          <title>I go to /cgi-bin/bug.pl?action=login page</title>
+          <attachments/>
+        </step>
+        <step start="1519689072983" stop="1519689072983" status="passed">
+          <name>I enter '__joey12__' in 'login' input</name>
+          <title>I enter '__joey12__' in 'login' input</title>
+          <attachments/>
+        </step>
+        <step start="1519689072983" stop="1519689073040" status="passed">
+          <name>I enter '12345678' in 'password' input</name>
+          <title>I enter '12345678' in 'password' input</title>
+          <attachments/>
+        </step>
+        <step start="1519689073040" stop="1519689073441" status="passed">
+          <name>I click 'Login' button</name>
+          <title>I click 'Login' button</title>
+          <attachments/>
+        </step>
+        <step start="1519689073441" stop="1519689078207" status="passed">
+          <name>I should see message 'Successfully authorized!'</name>
+          <title>I should see message 'Successfully authorized!'</title>
+          <attachments>
+            <attachment source="ee8e8978f347c2668a639286a00ed84c9d4b40029c906243e2964e1f7e2254c9-attachment.png" title="./screenshot_2018-02-27-02-51-18.053.png" size="28578" type="image/png"/>
+          </attachments>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70182613817300"/>
+        <label name="host" value="iMac-evgeniy.gotech.local"/>
+        <label name="issue" value="mutc-14"/>
+        <label name="feature" value="Login to site"/>
+        <label name="story" value="Login by correct user and correct password"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1519689078236" stop="1519689084165" status="passed">
+      <name>Login by correct user and incorrect password</name>
+      <title>Login by correct user and incorrect password</title>
+      <steps>
+        <step start="1519689078497" stop="1519689078497" status="passed">
+          <name>I go to /cgi-bin/bug.pl?action=login page</name>
+          <title>I go to /cgi-bin/bug.pl?action=login page</title>
+          <attachments/>
+        </step>
+        <step start="1519689078497" stop="1519689078497" status="passed">
+          <name>I enter '__joey12__' in 'login' input</name>
+          <title>I enter '__joey12__' in 'login' input</title>
+          <attachments/>
+        </step>
+        <step start="1519689078497" stop="1519689078556" status="passed">
+          <name>I enter '123456789' in 'password' input</name>
+          <title>I enter '123456789' in 'password' input</title>
+          <attachments/>
+        </step>
+        <step start="1519689078556" stop="1519689078773" status="passed">
+          <name>I click 'Login' button</name>
+          <title>I click 'Login' button</title>
+          <attachments/>
+        </step>
+        <step start="1519689078773" stop="1519689084132" status="passed">
+          <name>I should see message 'Login or password is invalid!'</name>
+          <title>I should see message 'Login or password is invalid!'</title>
+          <attachments>
+            <attachment source="ecbbb1eb8b25ff72f22b719509535c49ecf7a0dd27e6f67a2746f2e7c7c2fc12-attachment.png" title="./screenshot_2018-02-27-02-51-23.971.png" size="42038" type="image/png"/>
+          </attachments>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70182613817300"/>
+        <label name="host" value="iMac-evgeniy.gotech.local"/>
+        <label name="feature" value="Login to site"/>
+        <label name="story" value="Login by correct user and incorrect password"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1519689084167" stop="1519689085916" status="passed">
+      <name>Login by incorrect user and incorrect password</name>
+      <title>Login by incorrect user and incorrect password</title>
+      <steps>
+        <step start="1519689084398" stop="1519689084398" status="passed">
+          <name>I go to /cgi-bin/bug.pl?action=login page</name>
+          <title>I go to /cgi-bin/bug.pl?action=login page</title>
+          <attachments/>
+        </step>
+        <step start="1519689084398" stop="1519689084398" status="passed">
+          <name>I enter 'xzqwdzas' in 'login' input</name>
+          <title>I enter 'xzqwdzas' in 'login' input</title>
+          <attachments/>
+        </step>
+        <step start="1519689084399" stop="1519689084455" status="passed">
+          <name>I enter '123456789' in 'password' input</name>
+          <title>I enter '123456789' in 'password' input</title>
+          <attachments/>
+        </step>
+        <step start="1519689084455" stop="1519689084650" status="passed">
+          <name>I click 'Login' button</name>
+          <title>I click 'Login' button</title>
+          <attachments/>
+        </step>
+        <step start="1519689084650" stop="1519689085891" status="passed">
+          <name>I should see message 'Login or password is invalid!'</name>
+          <title>I should see message 'Login or password is invalid!'</title>
+          <attachments>
+            <attachment source="ad2b4b83d863bc8f25af63a620efccd9124b2644d0af1f18530100fc36a8c1f6-attachment.png" title="./screenshot_2018-02-27-02-51-25.726.png" size="42507" type="image/png"/>
+          </attachments>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70182613817300"/>
+        <label name="host" value="iMac-evgeniy.gotech.local"/>
+        <label name="feature" value="Login to site"/>
+        <label name="story" value="Login by incorrect user and incorrect password"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1519689085918" stop="1519689089038" status="failed">
+      <name>Check length control of login field (max 16 symbols)</name>
+      <title>Check length control of login field (max 16 symbols)</title>
+      <failure>
+        <message>expected '1234567891234567', actual '123456789123456789'</message>
+        <stack-trace>./features/support/env.rb:47:in `manual_YesNo'&#xD;
+./features/step_definitions/auth_steps.rb:6:in `/^I should see value of fields manual:$/'&#xD;
+features/Auth.feature:33:in `Then I should see value of fields manual:'</stack-trace>
+      </failure>
+      <steps>
+        <step start="1519689086183" stop="1519689086183" status="passed">
+          <name>I go to /cgi-bin/bug.pl?action=login page</name>
+          <title>I go to /cgi-bin/bug.pl?action=login page</title>
+          <attachments/>
+        </step>
+        <step start="1519689086183" stop="1519689086183" status="passed">
+          <name>I enter '123456789123456789' in 'login' input</name>
+          <title>I enter '123456789123456789' in 'login' input</title>
+          <attachments/>
+        </step>
+        <step start="1519689086183" stop="1519689088853" status="failed">
+          <name>I should see value of fields manual:</name>
+          <title>I should see value of fields manual:</title>
+          <attachments>
+            <attachment source="63903b0f8d84051c1ff4ac7b07113f8fef2c0f04f18f4ab099be590a4b8622c7-attachment.txt" title="multiline_arg" size="40" type="text/plain"/>
+            <attachment source="bfd3f17a63a50b7d0944c20cd0092106e4b3ecdab3cb4741c8b7693e491b9cf9-attachment.png" title="./screenshot_2018-02-27-02-51-28.853.png" size="37642" type="image/png"/>
+          </attachments>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70182613817300"/>
+        <label name="host" value="iMac-evgeniy.gotech.local"/>
+        <label name="feature" value="Login to site"/>
+        <label name="story" value="Check length control of login field (max 16 symbols)"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="70182613817300"/>
+    <label name="host" value="iMac-evgeniy.gotech.local"/>
+  </labels>
+</ns2:test-suite>

@@ -7,7 +7,7 @@
       "name" : "entering login page",
       "children" : [ {
         "name" : "entering login page",
-        "uid" : "782e9e6edf40290d",
+        "uid" : "bc087be8f86d5c24",
         "parentUid" : "742a6454c7ea67026867c4f380f80c28",
         "status" : "passed",
         "time" : {
@@ -23,7 +23,7 @@
       "name" : "Login by correct user and correct password",
       "children" : [ {
         "name" : "Login by correct user and correct password",
-        "uid" : "816b41b5545222c3",
+        "uid" : "932ece444cb69454",
         "parentUid" : "cbaeddc083fa0931f5069de1b323b616",
         "status" : "passed",
         "time" : {
@@ -39,7 +39,7 @@
       "name" : "Login by correct user and incorrect password",
       "children" : [ {
         "name" : "Login by correct user and incorrect password",
-        "uid" : "3f1b93677a36e5c7",
+        "uid" : "55ffbff0c78a12cd",
         "parentUid" : "373298e04cc236ee71319e99b7cbba5a",
         "status" : "passed",
         "time" : {
@@ -55,7 +55,7 @@
       "name" : "Login by incorrect user and incorrect password",
       "children" : [ {
         "name" : "Login by incorrect user and incorrect password",
-        "uid" : "dd9430cf3578af86",
+        "uid" : "3f423b63b1789245",
         "parentUid" : "d0bc8ca7c0448a0772353bd00ada68ba",
         "status" : "passed",
         "time" : {
@@ -71,7 +71,7 @@
       "name" : "Check length control of login field (max 16 symbols)",
       "children" : [ {
         "name" : "Check length control of login field (max 16 symbols)",
-        "uid" : "34a8090718349bca",
+        "uid" : "6244aabf49b1f932",
         "parentUid" : "5262e5885dcdc41b50d65c9c3951c94f",
         "status" : "failed",
         "time" : {
@@ -91,7 +91,7 @@
       "name" : "Check fields",
       "children" : [ {
         "name" : "Check fields",
-        "uid" : "35dab4b99ece2413",
+        "uid" : "b11fdb30b38579b0",
         "parentUid" : "b6eda3b8b2b8b4b9b1b9c00e1ebb12d4",
         "status" : "passed",
         "time" : {
@@ -107,7 +107,7 @@
       "name" : "Create user with correct values",
       "children" : [ {
         "name" : "Create user with correct values",
-        "uid" : "7e82b08b169af25d",
+        "uid" : "7351e35f29815a2d",
         "parentUid" : "387159447dbab5c7322d58d3f3b661c3",
         "status" : "passed",
         "time" : {
@@ -123,7 +123,7 @@
       "name" : "Try to create user with empty fields",
       "children" : [ {
         "name" : "Try to create user with empty fields",
-        "uid" : "a4cda6c5d5a9cb35",
+        "uid" : "6f0514f63f85da55",
         "parentUid" : "d8f676c060b3fd2b9bb07fa73a0eddf3",
         "status" : "passed",
         "time" : {
@@ -139,7 +139,7 @@
       "name" : "Try to input in Login more than 16 symbols",
       "children" : [ {
         "name" : "Try to input in Login more than 16 symbols",
-        "uid" : "494645079311175",
+        "uid" : "d8fcd086d38a32c3",
         "parentUid" : "3bff5cd05fa9067a48d5416904c08b4d",
         "status" : "failed",
         "time" : {
@@ -155,7 +155,7 @@
       "name" : "Try to input in Email two @ symbols",
       "children" : [ {
         "name" : "Try to input in Email two @ symbols",
-        "uid" : "fd2396eb70ae1548",
+        "uid" : "1e2004ec761bacc5",
         "parentUid" : "28d6828d55c9451274207a5c76604062",
         "status" : "passed",
         "time" : {
@@ -171,7 +171,7 @@
       "name" : "Try to input in Password more than 16 symbols",
       "children" : [ {
         "name" : "Try to input in Password more than 16 symbols",
-        "uid" : "734b240b2f7f0227",
+        "uid" : "9008d8380095b34d",
         "parentUid" : "9a73492d2847bf84d17c916a60ff404c",
         "status" : "passed",
         "time" : {
@@ -187,7 +187,7 @@
       "name" : "Try to create user with incorrect field 'confirm password'",
       "children" : [ {
         "name" : "Try to create user with incorrect field 'confirm password'",
-        "uid" : "feb368907ae75967",
+        "uid" : "ec27988f6dc43ffb",
         "parentUid" : "c0822e2189a37561b1134e71d3d077c8",
         "status" : "passed",
         "time" : {
@@ -203,7 +203,7 @@
       "name" : "Try to create user with incorrect password field (with spaces)",
       "children" : [ {
         "name" : "Try to create user with incorrect password field (with spaces)",
-        "uid" : "369da4c507ea0f0f",
+        "uid" : "df2eb6c639436e7e",
         "parentUid" : "6343c5a2c6063915d98eb978346728c2",
         "status" : "failed",
         "time" : {
@@ -219,7 +219,7 @@
       "name" : "Try to create user with incorrect Email field (with spaces)",
       "children" : [ {
         "name" : "Try to create user with incorrect Email field (with spaces)",
-        "uid" : "e9b077d227a4e275",
+        "uid" : "20b1cb34dd481ec4",
         "parentUid" : "7e6ed80d253fba73dbb507b919918bf9",
         "status" : "failed",
         "time" : {
@@ -235,7 +235,7 @@
       "name" : "Check Reset button",
       "children" : [ {
         "name" : "Check Reset button",
-        "uid" : "95c806b68ae5eead",
+        "uid" : "55f775f0e5c779bc",
         "parentUid" : "0d32599ee350741118dbcf42e386f704",
         "status" : "failed",
         "time" : {
@@ -251,265 +251,265 @@
     "uid" : "4d077dcf49cc3e1eab2a004ab8fae585"
   }, {
     "name" : "with correct login and correct password (await 200)",
-    "uid" : "94aa7319830a84a4",
+    "uid" : "f9717337e032880c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1519717974773,
-      "stop" : 1519717975082,
-      "duration" : 309
+      "start" : 1519721869855,
+      "stop" : 1519721870199,
+      "duration" : 344
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "with correct login and incorrect password (await 400)",
-    "uid" : "b10fa7c0ae7a46ed",
+    "uid" : "c8a440bb699843",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1519717975082,
-      "stop" : 1519717975238,
-      "duration" : 156
+      "start" : 1519721870200,
+      "stop" : 1519721870353,
+      "duration" : 153
     },
     "flaky" : true,
     "parameters" : [ ]
   }, {
     "name" : "with incorrect login and incorrect password (await 400)",
-    "uid" : "65f204a25c9bc823",
+    "uid" : "f0cebfa446553e5c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1519717975238,
-      "stop" : 1519717975398,
-      "duration" : 160
+      "start" : 1519721870354,
+      "stop" : 1519721870502,
+      "duration" : 148
     },
     "flaky" : true,
     "parameters" : [ ]
   }, {
     "name" : "with empty login and empty password (await 400)",
-    "uid" : "f6147a534190a137",
+    "uid" : "4286c1d08c6e67d1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1519717975398,
-      "stop" : 1519717975598,
-      "duration" : 200
+      "start" : 1519721870502,
+      "stop" : 1519721870669,
+      "duration" : 167
     },
     "flaky" : true,
     "parameters" : [ ]
   }, {
     "name" : "with correct login and correct password (await 'Successfully authorized!')",
-    "uid" : "bf0779bd816401c6",
+    "uid" : "19a6e9566a0cc110",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1519717975605,
-      "stop" : 1519717975747,
-      "duration" : 142
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "with correct login and incorrect password (await 'Login or password is invalid!')",
-    "uid" : "5a8f39de10fcc293",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1519717975747,
-      "stop" : 1519717975907,
-      "duration" : 160
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "with incorrect login and incorrect password (await 'Login or password is invalid!')",
-    "uid" : "1c96f14e46e3a665",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1519717975907,
-      "stop" : 1519717976053,
+      "start" : 1519721870787,
+      "stop" : 1519721870933,
       "duration" : 146
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
+    "name" : "with correct login and incorrect password (await 'Login or password is invalid!')",
+    "uid" : "444d07fc587ccef0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1519721870933,
+      "stop" : 1519721871086,
+      "duration" : 153
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "with incorrect login and incorrect password (await 'Login or password is invalid!')",
+    "uid" : "de98e5f975a08125",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1519721871086,
+      "stop" : 1519721871229,
+      "duration" : 143
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
     "name" : "with empty login and empty password (await 'Login or password is invalid!')",
-    "uid" : "d02dcd155acc2b44",
+    "uid" : "291aa604a5875390",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1519717976053,
-      "stop" : 1519717976195,
-      "duration" : 142
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "check existence background.png",
-    "uid" : "6cebeb93f5af3cea",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1519717976199,
-      "stop" : 1519717976288,
-      "duration" : 89
-    },
-    "flaky" : true,
-    "parameters" : [ ]
-  }, {
-    "name" : "and try to login by new created user",
-    "uid" : "9ce2f91837b48806",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1519717976289,
-      "stop" : 1519717976659,
-      "duration" : 370
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "register with correct values",
-    "uid" : "6cc38ca1583c0d01",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1519717976659,
-      "stop" : 1519717976807,
+      "start" : 1519721871229,
+      "stop" : 1519721871377,
       "duration" : 148
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "register with incorrect email",
-    "uid" : "84747342b31de45a",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1519717976807,
-      "stop" : 1519717976968,
-      "duration" : 161
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "register with incorrect login (count of symbols more than 16)",
-    "uid" : "8bd73c559b4b8dd8",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1519717976968,
-      "stop" : 1519717977115,
-      "duration" : 147
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "register with incorrect password (with spaces)",
-    "uid" : "605528d92d3cf452",
+    "name" : "check existence background.png",
+    "uid" : "5d0fecc2cad33389",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1519717977115,
-      "stop" : 1519717977272,
-      "duration" : 157
+      "start" : 1519721871381,
+      "stop" : 1519721871508,
+      "duration" : 127
     },
     "flaky" : true,
     "parameters" : [ ]
   }, {
-    "name" : "register with incorrect password_confirm (does not match with password field)",
-    "uid" : "20b3632ea94fa7bf",
+    "name" : "and try to login by new created user",
+    "uid" : "b04d1f8d7c2bfce7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1519717977272,
-      "stop" : 1519717977441,
+      "start" : 1519721871509,
+      "stop" : 1519721872160,
+      "duration" : 651
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "register with correct values",
+    "uid" : "5a23b498154335fd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1519721872160,
+      "stop" : 1519721872329,
       "duration" : 169
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "register with incorrect sex",
-    "uid" : "7974916ac23a232b",
+    "name" : "register with incorrect email",
+    "uid" : "505b5d7209956a79",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1519717977441,
-      "stop" : 1519717977583,
-      "duration" : 142
+      "start" : 1519721872329,
+      "stop" : 1519721872600,
+      "duration" : 271
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "register with incorrect login (count of symbols more than 16)",
+    "uid" : "866a6db756ba57c1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1519721872600,
+      "stop" : 1519721872799,
+      "duration" : 199
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "register with incorrect password (with spaces)",
+    "uid" : "89029c1c38db0d1d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1519721872800,
+      "stop" : 1519721873031,
+      "duration" : 231
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "register with incorrect password_confirm (does not match with password field)",
+    "uid" : "e096763588e65b55",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1519721873031,
+      "stop" : 1519721873201,
+      "duration" : 170
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "register with incorrect sex",
+    "uid" : "c29a0094dbb9036d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1519721873201,
+      "stop" : 1519721873377,
+      "duration" : 176
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "register with correct values (await status 200)",
-    "uid" : "31f4084b58c5d33d",
+    "uid" : "30c2a77e333fecb3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1519717977597,
-      "stop" : 1519717977746,
-      "duration" : 149
+      "start" : 1519721873385,
+      "stop" : 1519721873593,
+      "duration" : 208
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "register with incorrect email (await status 400)",
-    "uid" : "a99028ddec509b06",
+    "uid" : "7e5f3aacbbce4809",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1519717977746,
-      "stop" : 1519717977897,
-      "duration" : 151
+      "start" : 1519721873593,
+      "stop" : 1519721873767,
+      "duration" : 174
     },
     "flaky" : true,
     "parameters" : [ ]
   }, {
     "name" : "register with incorrect login (count of symbols more than 16) (await status 400)",
-    "uid" : "30c6691c923fcdb3",
+    "uid" : "f56b080ef383e61a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1519717977897,
-      "stop" : 1519717978247,
-      "duration" : 350
+      "start" : 1519721873767,
+      "stop" : 1519721874048,
+      "duration" : 281
     },
     "flaky" : true,
     "parameters" : [ ]
   }, {
     "name" : "register with incorrect password (with spaces) (await status 400)",
-    "uid" : "edd0498fef51e2d9",
+    "uid" : "d96c3be3af38fb4c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1519717978247,
-      "stop" : 1519717980455,
-      "duration" : 2208
+      "start" : 1519721874049,
+      "stop" : 1519721874221,
+      "duration" : 172
     },
     "flaky" : true,
     "parameters" : [ ]
   }, {
     "name" : "register with incorrect password_confirm (await status 400)",
-    "uid" : "582902a834deb4df",
+    "uid" : "8f578cf3b530f40f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1519717980455,
-      "stop" : 1519717980842,
-      "duration" : 387
+      "start" : 1519721874222,
+      "stop" : 1519721874365,
+      "duration" : 143
     },
     "flaky" : true,
     "parameters" : [ ]
   }, {
     "name" : "register with incorrect sex (await status 400)",
-    "uid" : "f8066920393b9186",
+    "uid" : "dace764b94b85efb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1519717980842,
-      "stop" : 1519717981008,
-      "duration" : 166
+      "start" : 1519721874365,
+      "stop" : 1519721874570,
+      "duration" : 205
     },
     "flaky" : true,
     "parameters" : [ ]

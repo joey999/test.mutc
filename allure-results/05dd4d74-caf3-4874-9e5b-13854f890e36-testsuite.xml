@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1519683132915' stop='1519683133865'>
+    <name>API ./POST Login and check statuses</name>
+    <title>API ./POST Login and check statuses</title>
+    <test-cases>
+        <test-case start='1519683132915' status='passed' stop='1519683133128'>
+            <name>with correct login and correct password (await 200)</name>
+            <title>with correct login and correct password (await 200)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1519683133129' status='failed' stop='1519683133343'>
+            <name>with correct login and incorrect password (await 400)</name>
+            <title>with correct login and incorrect password (await 400)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>
+                      AssertionError: expected { Object (domain, _events, ...) } to have status code 400 but got 200
+                      + expected - actual
+                
+                      -200
+                      +400
+                      </message>
+                <stack-trace>      at Context.it (test/auth.js:23:30)
+                      at &lt;anonymous>
+                      at process._tickCallback (internal/process/next_tick.js:188:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1519683133343' status='failed' stop='1519683133665'>
+            <name>with incorrect login and incorrect password (await 400)</name>
+            <title>with incorrect login and incorrect password (await 400)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>
+                      AssertionError: expected { Object (domain, _events, ...) } to have status code 400 but got 200
+                      + expected - actual
+                
+                      -200
+                      +400
+                      </message>
+                <stack-trace>      at Context.it (test/auth.js:34:30)
+                      at &lt;anonymous>
+                      at process._tickCallback (internal/process/next_tick.js:188:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1519683133665' status='failed' stop='1519683133865'>
+            <name>with empty login and empty password (await 400)</name>
+            <title>with empty login and empty password (await 400)</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>
+                      AssertionError: expected { Object (domain, _events, ...) } to have status code 400 but got 200
+                      + expected - actual
+                
+                      -200
+                      +400
+                      </message>
+                <stack-trace>      at Context.it (test/auth.js:45:30)
+                      at &lt;anonymous>
+                      at process._tickCallback (internal/process/next_tick.js:188:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

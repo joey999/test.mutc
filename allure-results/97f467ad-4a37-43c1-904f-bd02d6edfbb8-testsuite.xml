@@ -1,0 +1,194 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1519721871509' stop='1519721874573'>
+    <name>API ./Register of new user</name>
+    <title>API ./Register of new user</title>
+    <test-cases>
+        <test-case start='1519721871509' status='passed' stop='1519721872160'>
+            <name>and try to login by new created user</name>
+            <title>and try to login by new created user</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1519721871509' status='passed' stop='1519721871884'>
+                    <name>Registration;</name>
+                    <title>Registration;</title>
+                    <attachments>
+                        <attachment title='Data' source='c77d1a42-dd96-4b69-9836-c41d39082226-attachment.txt' type='text/plain' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1519721871884' status='passed' stop='1519721872159'>
+                    <name>Authorization; Login - test_34614, Pass - 12345678</name>
+                    <title>Authorization; Login - test_34614, Pass - 12345678</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1519721872159' status='passed' stop='1519721872159'>
+                    <name>Check status; Actual - 200, Expect - 200</name>
+                    <title>Check status; Actual - 200, Expect - 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1519721872159' status='passed' stop='1519721872159'>
+                    <name>Checking the expected value; Actual - 
+                    &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+                    &lt;html>
+                    &lt;head>
+                        &lt;title>
+                            
+                            Successfully authorized!
+                            
+                        &lt;/title>
+                        &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        &lt;style type="text/css">
+                            div.content {
+                                width: 440px;
+                                padding: 10px;
+                                background-color: greenyellow;
+                                border: 1px solid #93d928;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                    
+                            table.logo {
+                                background: url( "/img/background.png" );
+                                background-repeat: no-repeat;
+                                width: 402px;
+                                height: 285px;
+                            }
+                    
+                            span.message {
+                                color: green;
+                            }
+                    
+                            div.error {
+                                width: 440px;
+                                padding: 10px;
+                                border: 1px solid coral;
+                                margin-bottom: 10px;
+                                text-align: left;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                        &lt;/style>
+                    &lt;/head>
+                    &lt;body>
+                    &lt;table width="100%" height="100%" border="0">
+                        &lt;tr align="center" valign="middle">
+                            &lt;td>
+                                &lt;table class="logo" border="0">
+                                    &lt;tr align="center" valign="middle">
+                                        &lt;td>
+                                            
+                                            &lt;div class="content">
+                                                
+                                                &lt;span class="message">Successfully authorized!&lt;/span>
+                                                
+                                                
+                                                
+                                                
+                                            &lt;/div>
+                                        &lt;/td>
+                                    &lt;/tr>
+                                &lt;/table>
+                            &lt;/td>
+                        &lt;/tr>
+                    &lt;/table>
+                    &lt;script>
+                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                    
+                      ga('create', 'UA-45669254-2', 'auto');
+                      ga('send', 'pageview');
+                    
+                    &lt;/script>
+                    &lt;/body>
+                    &lt;/html>
+                    , include expect - Successfully authorized!</name>
+                    <title>Checking the expected value; Actual - 
+                    &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+                    &lt;html>
+                    &lt;head>
+                        &lt;title>
+                            
+                            Successfully authorized!
+                            
+                        &lt;/title>
+                        &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        &lt;style type="text/css">
+                            div.content {
+                                width: 440px;
+                                padding: 10px;
+                                background-color: greenyellow;
+                                border: 1px solid #93d928;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                    
+                            table.logo {
+                                background: url( "/img/background.png" );
+                                background-repeat: no-repeat;
+                                width: 402px;
+                                height: 285px;
+                            }
+                    
+                            span.message {
+                                color: green;
+                            }
+                    
+                            div.error {
+                                width: 440px;
+                                padding: 10px;
+                                border: 1px solid coral;
+                                margin-bottom: 10px;
+                                text-align: left;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                        &lt;/style>
+                    &lt;/head>
+                    &lt;body>
+                    &lt;table width="100%" height="100%" border="0">
+                        &lt;tr align="center" valign="middle">
+                            &lt;td>
+                                &lt;table class="logo" border="0">
+                                    &lt;tr align="center" valign="middle">
+                                        &lt;td>
+                                            
+                                            &lt;div class="content">
+                                                
+                                                &lt;span class="message">Successfully authorized!&lt;/span>
+                                                
+                                                
+                                                
+                                                
+                                            &lt;/div>
+                                        &lt;/td>
+                                    &lt;/tr>
+                                &lt;/table>
+                            &lt;/td>
+                        &lt;/tr>
+                    &lt;/table>
+                    &lt;script>
+                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                    
+                      ga('create', 'UA-45669254-2', 'auto');
+                      ga('send', 'pageview');
+                    
+                    &lt;/script>
+                    &lt;/body>
+                    &lt;/html>
+                    , include expect - Successfully authorized!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

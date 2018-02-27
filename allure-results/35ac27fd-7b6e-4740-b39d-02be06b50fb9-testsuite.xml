@@ -1,0 +1,1521 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1519721872160' stop='1519721873377'>
+    <name>API ./Register of new user check text response of</name>
+    <title>API ./Register of new user check text response of</title>
+    <test-cases>
+        <test-case start='1519721872160' status='passed' stop='1519721872329'>
+            <name>register with correct values</name>
+            <title>register with correct values</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1519721872160' status='passed' stop='1519721872328'>
+                    <name>Registration;</name>
+                    <title>Registration;</title>
+                    <attachments>
+                        <attachment title='Data' source='cc29e7e6-f864-4e7b-9c55-9061e7e90aa8-attachment.txt' type='text/plain' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1519721872328' status='passed' stop='1519721872329'>
+                    <name>Checking the expected value; Actual - 
+                    &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+                    &lt;html>
+                    &lt;head>
+                        &lt;title>
+                            
+                            Welcome to our buggy system!
+                            
+                        &lt;/title>
+                        &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        &lt;style type="text/css">
+                            div.content {
+                                width: 440px;
+                                padding: 10px;
+                                background-color: greenyellow;
+                                border: 1px solid #93d928;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                    
+                            table.logo {
+                                background: url( "/img/background.png" );
+                                background-repeat: no-repeat;
+                                width: 402px;
+                                height: 285px;
+                            }
+                    
+                            span.message {
+                                color: green;
+                            }
+                    
+                            div.error {
+                                width: 440px;
+                                padding: 10px;
+                                border: 1px solid coral;
+                                margin-bottom: 10px;
+                                text-align: left;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                        &lt;/style>
+                    &lt;/head>
+                    &lt;body>
+                    &lt;table width="100%" height="100%" border="0">
+                        &lt;tr align="center" valign="middle">
+                            &lt;td>
+                                &lt;table class="logo" border="0">
+                                    &lt;tr align="center" valign="middle">
+                                        &lt;td>
+                                            
+                                            &lt;div class="content">
+                                                
+                                                &lt;span class="message">Congratulations! You have been successfully registered. Now you can &lt;a href="?action=login">login&lt;/a>.&lt;/span>
+                                                
+                                                
+                                                
+                                                
+                                            &lt;/div>
+                                        &lt;/td>
+                                    &lt;/tr>
+                                &lt;/table>
+                            &lt;/td>
+                        &lt;/tr>
+                    &lt;/table>
+                    &lt;script>
+                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                    
+                      ga('create', 'UA-45669254-2', 'auto');
+                      ga('send', 'pageview');
+                    
+                    &lt;/script>
+                    &lt;/body>
+                    &lt;/html>
+                    , include expect - Congratulations! You have been successfully registered.</name>
+                    <title>Checking the expected value; Actual - 
+                    &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+                    &lt;html>
+                    &lt;head>
+                        &lt;title>
+                            
+                            Welcome to our buggy system!
+                            
+                        &lt;/title>
+                        &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        &lt;style type="text/css">
+                            div.content {
+                                width: 440px;
+                                padding: 10px;
+                                background-color: greenyellow;
+                                border: 1px solid #93d928;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                    
+                            table.logo {
+                                background: url( "/img/background.png" );
+                                background-repeat: no-repeat;
+                                width: 402px;
+                                height: 285px;
+                            }
+                    
+                            span.message {
+                                color: green;
+                            }
+                    
+                            div.error {
+                                width: 440px;
+                                padding: 10px;
+                                border: 1px solid coral;
+                                margin-bottom: 10px;
+                                text-align: left;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                        &lt;/style>
+                    &lt;/head>
+                    &lt;body>
+                    &lt;table width="100%" height="100%" border="0">
+                        &lt;tr align="center" valign="middle">
+                            &lt;td>
+                                &lt;table class="logo" border="0">
+                                    &lt;tr align="center" valign="middle">
+                                        &lt;td>
+                                            
+                                            &lt;div class="content">
+                                                
+                                                &lt;span class="message">Congratulations! You have been successfully registered. Now you can &lt;a href="?action=login">login&lt;/a>.&lt;/span>
+                                                
+                                                
+                                                
+                                                
+                                            &lt;/div>
+                                        &lt;/td>
+                                    &lt;/tr>
+                                &lt;/table>
+                            &lt;/td>
+                        &lt;/tr>
+                    &lt;/table>
+                    &lt;script>
+                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                    
+                      ga('create', 'UA-45669254-2', 'auto');
+                      ga('send', 'pageview');
+                    
+                    &lt;/script>
+                    &lt;/body>
+                    &lt;/html>
+                    , include expect - Congratulations! You have been successfully registered.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1519721872329' status='passed' stop='1519721872600'>
+            <name>register with incorrect email</name>
+            <title>register with incorrect email</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1519721872329' status='passed' stop='1519721872600'>
+                    <name>Registration;</name>
+                    <title>Registration;</title>
+                    <attachments>
+                        <attachment title='Data' source='b1c5ca62-ad04-4311-b6d5-adea2599f698-attachment.txt' type='text/plain' size='130'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1519721872600' status='passed' stop='1519721872600'>
+                    <name>Checking the expected value; Actual - 
+                    &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+                    &lt;html>
+                    &lt;head>
+                        &lt;title>
+                            
+                            Welcome to our buggy system!
+                            
+                        &lt;/title>
+                        &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        &lt;style type="text/css">
+                            div.content {
+                                width: 440px;
+                                padding: 10px;
+                                background-color: greenyellow;
+                                border: 1px solid #93d928;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                    
+                            table.logo {
+                                background: url( "/img/background.png" );
+                                background-repeat: no-repeat;
+                                width: 402px;
+                                height: 285px;
+                            }
+                    
+                            span.message {
+                                color: green;
+                            }
+                    
+                            div.error {
+                                width: 440px;
+                                padding: 10px;
+                                border: 1px solid coral;
+                                margin-bottom: 10px;
+                                text-align: left;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                        &lt;/style>
+                    &lt;/head>
+                    &lt;body>
+                    &lt;table width="100%" height="100%" border="0">
+                        &lt;tr align="center" valign="middle">
+                            &lt;td>
+                                &lt;table class="logo" border="0">
+                                    &lt;tr align="center" valign="middle">
+                                        &lt;td>
+                                            
+                                            &lt;div class="error">
+                                                
+                                                - not a valid email address&lt;br>
+                                                
+                                            &lt;/div>
+                                            
+                                            &lt;div class="content">
+                                                
+                                                
+                                                
+                                                &lt;table border="0">
+                        &lt;form action="" method="post">
+                            &lt;input type="hidden" name="action" value="register_do">
+                            &lt;tr>
+                                &lt;td>Login&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="login" value="test_96560">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Email&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="email" maxlength="32" value="test_@qwe@qwe.ru">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Password (8-16 symbols)&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="password" maxlength="16" value="12345678">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Confirm password&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="password_confirm" maxlength="16"
+                                           value="12345678">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Your sex&lt;/td>
+                                &lt;td>
+                                    &lt;select name="sex">
+                                        &lt;option value="male">male&lt;/option>
+                                        &lt;option value="female">female&lt;/option>
+                                        &lt;option value="none">none&lt;/option>
+                                    &lt;/select>
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Subscribe to our news&lt;/td>
+                                &lt;td>&lt;input type="checkbox" name="news" >&lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>
+                                    &lt;input type="button" value="Back" onclick="window.location='?action=login'">
+                                &lt;/td>
+                                &lt;td align="right">
+                                    &lt;input type="reset" value="Reset">&amp;nbsp;&lt;input type="submit" value="Register">
+                                &lt;/td>
+                            &lt;/tr>
+                        &lt;/form>
+                    &lt;/table>
+                                                
+                                                
+                                            &lt;/div>
+                                        &lt;/td>
+                                    &lt;/tr>
+                                &lt;/table>
+                            &lt;/td>
+                        &lt;/tr>
+                    &lt;/table>
+                    &lt;script>
+                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                    
+                      ga('create', 'UA-45669254-2', 'auto');
+                      ga('send', 'pageview');
+                    
+                    &lt;/script>
+                    &lt;/body>
+                    &lt;/html>
+                    , include expect - not a valid email address</name>
+                    <title>Checking the expected value; Actual - 
+                    &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+                    &lt;html>
+                    &lt;head>
+                        &lt;title>
+                            
+                            Welcome to our buggy system!
+                            
+                        &lt;/title>
+                        &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        &lt;style type="text/css">
+                            div.content {
+                                width: 440px;
+                                padding: 10px;
+                                background-color: greenyellow;
+                                border: 1px solid #93d928;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                    
+                            table.logo {
+                                background: url( "/img/background.png" );
+                                background-repeat: no-repeat;
+                                width: 402px;
+                                height: 285px;
+                            }
+                    
+                            span.message {
+                                color: green;
+                            }
+                    
+                            div.error {
+                                width: 440px;
+                                padding: 10px;
+                                border: 1px solid coral;
+                                margin-bottom: 10px;
+                                text-align: left;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                        &lt;/style>
+                    &lt;/head>
+                    &lt;body>
+                    &lt;table width="100%" height="100%" border="0">
+                        &lt;tr align="center" valign="middle">
+                            &lt;td>
+                                &lt;table class="logo" border="0">
+                                    &lt;tr align="center" valign="middle">
+                                        &lt;td>
+                                            
+                                            &lt;div class="error">
+                                                
+                                                - not a valid email address&lt;br>
+                                                
+                                            &lt;/div>
+                                            
+                                            &lt;div class="content">
+                                                
+                                                
+                                                
+                                                &lt;table border="0">
+                        &lt;form action="" method="post">
+                            &lt;input type="hidden" name="action" value="register_do">
+                            &lt;tr>
+                                &lt;td>Login&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="login" value="test_96560">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Email&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="email" maxlength="32" value="test_@qwe@qwe.ru">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Password (8-16 symbols)&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="password" maxlength="16" value="12345678">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Confirm password&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="password_confirm" maxlength="16"
+                                           value="12345678">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Your sex&lt;/td>
+                                &lt;td>
+                                    &lt;select name="sex">
+                                        &lt;option value="male">male&lt;/option>
+                                        &lt;option value="female">female&lt;/option>
+                                        &lt;option value="none">none&lt;/option>
+                                    &lt;/select>
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Subscribe to our news&lt;/td>
+                                &lt;td>&lt;input type="checkbox" name="news" >&lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>
+                                    &lt;input type="button" value="Back" onclick="window.location='?action=login'">
+                                &lt;/td>
+                                &lt;td align="right">
+                                    &lt;input type="reset" value="Reset">&amp;nbsp;&lt;input type="submit" value="Register">
+                                &lt;/td>
+                            &lt;/tr>
+                        &lt;/form>
+                    &lt;/table>
+                                                
+                                                
+                                            &lt;/div>
+                                        &lt;/td>
+                                    &lt;/tr>
+                                &lt;/table>
+                            &lt;/td>
+                        &lt;/tr>
+                    &lt;/table>
+                    &lt;script>
+                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                    
+                      ga('create', 'UA-45669254-2', 'auto');
+                      ga('send', 'pageview');
+                    
+                    &lt;/script>
+                    &lt;/body>
+                    &lt;/html>
+                    , include expect - not a valid email address</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1519721872600' status='passed' stop='1519721872799'>
+            <name>register with incorrect login (count of symbols more than 16)</name>
+            <title>register with incorrect login (count of symbols more than 16)</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1519721872600' status='passed' stop='1519721872799'>
+                    <name>Registration;</name>
+                    <title>Registration;</title>
+                    <attachments>
+                        <attachment title='Data' source='beacd6a3-767d-421d-a919-55ea22a9efc1-attachment.txt' type='text/plain' size='148'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1519721872799' status='passed' stop='1519721872799'>
+                    <name>Checking the expected value; Actual - 
+                    &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+                    &lt;html>
+                    &lt;head>
+                        &lt;title>
+                            
+                            Welcome to our buggy system!
+                            
+                        &lt;/title>
+                        &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        &lt;style type="text/css">
+                            div.content {
+                                width: 440px;
+                                padding: 10px;
+                                background-color: greenyellow;
+                                border: 1px solid #93d928;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                    
+                            table.logo {
+                                background: url( "/img/background.png" );
+                                background-repeat: no-repeat;
+                                width: 402px;
+                                height: 285px;
+                            }
+                    
+                            span.message {
+                                color: green;
+                            }
+                    
+                            div.error {
+                                width: 440px;
+                                padding: 10px;
+                                border: 1px solid coral;
+                                margin-bottom: 10px;
+                                text-align: left;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                        &lt;/style>
+                    &lt;/head>
+                    &lt;body>
+                    &lt;table width="100%" height="100%" border="0">
+                        &lt;tr align="center" valign="middle">
+                            &lt;td>
+                                &lt;table class="logo" border="0">
+                                    &lt;tr align="center" valign="middle">
+                                        &lt;td>
+                                            
+                                            &lt;div class="error">
+                                                
+                                                - login must be 4-16 symbol length&lt;br>
+                                                
+                                            &lt;/div>
+                                            
+                                            &lt;div class="content">
+                                                
+                                                
+                                                
+                                                &lt;table border="0">
+                        &lt;form action="" method="post">
+                            &lt;input type="hidden" name="action" value="register_do">
+                            &lt;tr>
+                                &lt;td>Login&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="login" value="test_123456789012345678">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Email&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="email" maxlength="32" value="test_email_905@975.ru">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Password (8-16 symbols)&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="password" maxlength="16" value="12345678">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Confirm password&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="password_confirm" maxlength="16"
+                                           value="12345678">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Your sex&lt;/td>
+                                &lt;td>
+                                    &lt;select name="sex">
+                                        &lt;option value="male">male&lt;/option>
+                                        &lt;option value="female">female&lt;/option>
+                                        &lt;option value="none">none&lt;/option>
+                                    &lt;/select>
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Subscribe to our news&lt;/td>
+                                &lt;td>&lt;input type="checkbox" name="news" >&lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>
+                                    &lt;input type="button" value="Back" onclick="window.location='?action=login'">
+                                &lt;/td>
+                                &lt;td align="right">
+                                    &lt;input type="reset" value="Reset">&amp;nbsp;&lt;input type="submit" value="Register">
+                                &lt;/td>
+                            &lt;/tr>
+                        &lt;/form>
+                    &lt;/table>
+                                                
+                                                
+                                            &lt;/div>
+                                        &lt;/td>
+                                    &lt;/tr>
+                                &lt;/table>
+                            &lt;/td>
+                        &lt;/tr>
+                    &lt;/table>
+                    &lt;script>
+                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                    
+                      ga('create', 'UA-45669254-2', 'auto');
+                      ga('send', 'pageview');
+                    
+                    &lt;/script>
+                    &lt;/body>
+                    &lt;/html>
+                    , include expect - login must be 4-16 symbol length</name>
+                    <title>Checking the expected value; Actual - 
+                    &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+                    &lt;html>
+                    &lt;head>
+                        &lt;title>
+                            
+                            Welcome to our buggy system!
+                            
+                        &lt;/title>
+                        &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        &lt;style type="text/css">
+                            div.content {
+                                width: 440px;
+                                padding: 10px;
+                                background-color: greenyellow;
+                                border: 1px solid #93d928;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                    
+                            table.logo {
+                                background: url( "/img/background.png" );
+                                background-repeat: no-repeat;
+                                width: 402px;
+                                height: 285px;
+                            }
+                    
+                            span.message {
+                                color: green;
+                            }
+                    
+                            div.error {
+                                width: 440px;
+                                padding: 10px;
+                                border: 1px solid coral;
+                                margin-bottom: 10px;
+                                text-align: left;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                        &lt;/style>
+                    &lt;/head>
+                    &lt;body>
+                    &lt;table width="100%" height="100%" border="0">
+                        &lt;tr align="center" valign="middle">
+                            &lt;td>
+                                &lt;table class="logo" border="0">
+                                    &lt;tr align="center" valign="middle">
+                                        &lt;td>
+                                            
+                                            &lt;div class="error">
+                                                
+                                                - login must be 4-16 symbol length&lt;br>
+                                                
+                                            &lt;/div>
+                                            
+                                            &lt;div class="content">
+                                                
+                                                
+                                                
+                                                &lt;table border="0">
+                        &lt;form action="" method="post">
+                            &lt;input type="hidden" name="action" value="register_do">
+                            &lt;tr>
+                                &lt;td>Login&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="login" value="test_123456789012345678">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Email&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="email" maxlength="32" value="test_email_905@975.ru">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Password (8-16 symbols)&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="password" maxlength="16" value="12345678">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Confirm password&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="password_confirm" maxlength="16"
+                                           value="12345678">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Your sex&lt;/td>
+                                &lt;td>
+                                    &lt;select name="sex">
+                                        &lt;option value="male">male&lt;/option>
+                                        &lt;option value="female">female&lt;/option>
+                                        &lt;option value="none">none&lt;/option>
+                                    &lt;/select>
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Subscribe to our news&lt;/td>
+                                &lt;td>&lt;input type="checkbox" name="news" >&lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>
+                                    &lt;input type="button" value="Back" onclick="window.location='?action=login'">
+                                &lt;/td>
+                                &lt;td align="right">
+                                    &lt;input type="reset" value="Reset">&amp;nbsp;&lt;input type="submit" value="Register">
+                                &lt;/td>
+                            &lt;/tr>
+                        &lt;/form>
+                    &lt;/table>
+                                                
+                                                
+                                            &lt;/div>
+                                        &lt;/td>
+                                    &lt;/tr>
+                                &lt;/table>
+                            &lt;/td>
+                        &lt;/tr>
+                    &lt;/table>
+                    &lt;script>
+                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                    
+                      ga('create', 'UA-45669254-2', 'auto');
+                      ga('send', 'pageview');
+                    
+                    &lt;/script>
+                    &lt;/body>
+                    &lt;/html>
+                    , include expect - login must be 4-16 symbol length</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1519721872800' status='failed' stop='1519721873031'>
+            <name>register with incorrect password (with spaces)</name>
+            <title>register with incorrect password (with spaces)</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1519721872800' status='passed' stop='1519721873027'>
+                    <name>Registration;</name>
+                    <title>Registration;</title>
+                    <attachments>
+                        <attachment title='Data' source='13e1d9b6-89a1-4ed1-a3f4-91e28b0a9086-attachment.txt' type='text/plain' size='143'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1519721873027' status='broken' stop='1519721873027'>
+                    <name>Checking the expected value; Actual - 
+                    &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+                    &lt;html>
+                    &lt;head>
+                        &lt;title>
+                            
+                            Welcome to our buggy system!
+                            
+                        &lt;/title>
+                        &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        &lt;style type="text/css">
+                            div.content {
+                                width: 440px;
+                                padding: 10px;
+                                background-color: greenyellow;
+                                border: 1px solid #93d928;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                    
+                            table.logo {
+                                background: url( "/img/background.png" );
+                                background-repeat: no-repeat;
+                                width: 402px;
+                                height: 285px;
+                            }
+                    
+                            span.message {
+                                color: green;
+                            }
+                    
+                            div.error {
+                                width: 440px;
+                                padding: 10px;
+                                border: 1px solid coral;
+                                margin-bottom: 10px;
+                                text-align: left;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                        &lt;/style>
+                    &lt;/head>
+                    &lt;body>
+                    &lt;table width="100%" height="100%" border="0">
+                        &lt;tr align="center" valign="middle">
+                            &lt;td>
+                                &lt;table class="logo" border="0">
+                                    &lt;tr align="center" valign="middle">
+                                        &lt;td>
+                                            
+                                            &lt;div class="content">
+                                                
+                                                &lt;span class="message">Congratulations! You have been successfully registered. Now you can &lt;a href="?action=login">login&lt;/a>.&lt;/span>
+                                                
+                                                
+                                                
+                                                
+                                            &lt;/div>
+                                        &lt;/td>
+                                    &lt;/tr>
+                                &lt;/table>
+                            &lt;/td>
+                        &lt;/tr>
+                    &lt;/table>
+                    &lt;script>
+                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                    
+                      ga('create', 'UA-45669254-2', 'auto');
+                      ga('send', 'pageview');
+                    
+                    &lt;/script>
+                    &lt;/body>
+                    &lt;/html>
+                    , include expect - the password can not contain spaces</name>
+                    <title>Checking the expected value; Actual - 
+                    &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+                    &lt;html>
+                    &lt;head>
+                        &lt;title>
+                            
+                            Welcome to our buggy system!
+                            
+                        &lt;/title>
+                        &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        &lt;style type="text/css">
+                            div.content {
+                                width: 440px;
+                                padding: 10px;
+                                background-color: greenyellow;
+                                border: 1px solid #93d928;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                    
+                            table.logo {
+                                background: url( "/img/background.png" );
+                                background-repeat: no-repeat;
+                                width: 402px;
+                                height: 285px;
+                            }
+                    
+                            span.message {
+                                color: green;
+                            }
+                    
+                            div.error {
+                                width: 440px;
+                                padding: 10px;
+                                border: 1px solid coral;
+                                margin-bottom: 10px;
+                                text-align: left;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                        &lt;/style>
+                    &lt;/head>
+                    &lt;body>
+                    &lt;table width="100%" height="100%" border="0">
+                        &lt;tr align="center" valign="middle">
+                            &lt;td>
+                                &lt;table class="logo" border="0">
+                                    &lt;tr align="center" valign="middle">
+                                        &lt;td>
+                                            
+                                            &lt;div class="content">
+                                                
+                                                &lt;span class="message">Congratulations! You have been successfully registered. Now you can &lt;a href="?action=login">login&lt;/a>.&lt;/span>
+                                                
+                                                
+                                                
+                                                
+                                            &lt;/div>
+                                        &lt;/td>
+                                    &lt;/tr>
+                                &lt;/table>
+                            &lt;/td>
+                        &lt;/tr>
+                    &lt;/table>
+                    &lt;script>
+                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                    
+                      ga('create', 'UA-45669254-2', 'auto');
+                      ga('send', 'pageview');
+                    
+                    &lt;/script>
+                    &lt;/body>
+                    &lt;/html>
+                    , include expect - the password can not contain spaces</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>AssertionError: expected '\n&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">\n&lt;html>\n&lt;head>\n    &lt;title>\n        \n        Welcome to our buggy system!\n        \n    &lt;/title>\n    &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8">\n    &lt;style type="text/css">\n        div.content {\n            width: 440px;\n            padding: 10px;\n            background-color: greenyellow;\n            border: 1px solid #93d928;\n            -moz-border-radius: 10px;\n            -webkit-border-radius: 10px;\n        }\n\n        table.logo {\n            background: url( "/img/background.png" );\n            background-repeat: no-repeat;\n            width: 402px;\n            height: 285px;\n        }\n\n        span.message {\n            color: green;\n        }\n\n        div.error {\n            width: 440px;\n            padding: 10px;\n            border: 1px solid coral;\n            margin-bottom: 10px;\n            text-align: left;\n            -moz-border-radius: 10px;\n            -webkit-border-radius: 10px;\n        }\n    &lt;/style>\n&lt;/head>\n&lt;body>\n&lt;table width="100%" height="100%" border="0">\n    &lt;tr align="center" valign="middle">\n        &lt;td>\n            &lt;table class="logo" border="0">\n                &lt;tr align="center" valign="middle">\n                    &lt;td>\n                        \n                        &lt;div class="content">\n                            \n                            &lt;span class="message">Congratulations! You have been successfully registered. Now you can &lt;a href="?action=login">login&lt;/a>.&lt;/span>\n                            \n                            \n                            \n                            \n                        &lt;/div>\n                    &lt;/td>\n                &lt;/tr>\n            &lt;/table>\n        &lt;/td>\n    &lt;/tr>\n&lt;/table>\n&lt;script>\n  (function(i,s,o,g,r,a,m){i[\'GoogleAnalyticsObject\']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,\'script\',\'https://www.google-analytics.com/analytics.js\',\'ga\');\n\n  ga(\'create\', \'UA-45669254-2\', \'auto\');\n  ga(\'send\', \'pageview\');\n\n&lt;/script>\n&lt;/body>\n&lt;/html>\n' to deep include 'the password can not contain spaces'</message>
+                <stack-trace>      at allure.createStep (test/register.js:11:33)
+                      at node_modules/allure-js-commons/runtime.js:18:31
+                      at Context.it (test/register.js:74:13)
+                      at &lt;anonymous>
+                      at process._tickCallback (internal/process/next_tick.js:188:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1519721873031' status='passed' stop='1519721873201'>
+            <name>register with incorrect password_confirm (does not match with password field)</name>
+            <title>register with incorrect password_confirm (does not match with password field)</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1519721873031' status='passed' stop='1519721873201'>
+                    <name>Registration;</name>
+                    <title>Registration;</title>
+                    <attachments>
+                        <attachment title='Data' source='5d87868b-01f2-42e9-8ecb-6259247b4571-attachment.txt' type='text/plain' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1519721873201' status='passed' stop='1519721873201'>
+                    <name>Checking the expected value; Actual - 
+                    &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+                    &lt;html>
+                    &lt;head>
+                        &lt;title>
+                            
+                            Welcome to our buggy system!
+                            
+                        &lt;/title>
+                        &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        &lt;style type="text/css">
+                            div.content {
+                                width: 440px;
+                                padding: 10px;
+                                background-color: greenyellow;
+                                border: 1px solid #93d928;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                    
+                            table.logo {
+                                background: url( "/img/background.png" );
+                                background-repeat: no-repeat;
+                                width: 402px;
+                                height: 285px;
+                            }
+                    
+                            span.message {
+                                color: green;
+                            }
+                    
+                            div.error {
+                                width: 440px;
+                                padding: 10px;
+                                border: 1px solid coral;
+                                margin-bottom: 10px;
+                                text-align: left;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                        &lt;/style>
+                    &lt;/head>
+                    &lt;body>
+                    &lt;table width="100%" height="100%" border="0">
+                        &lt;tr align="center" valign="middle">
+                            &lt;td>
+                                &lt;table class="logo" border="0">
+                                    &lt;tr align="center" valign="middle">
+                                        &lt;td>
+                                            
+                                            &lt;div class="error">
+                                                
+                                                - password doesn't match confirmation&lt;br>
+                                                
+                                            &lt;/div>
+                                            
+                                            &lt;div class="content">
+                                                
+                                                
+                                                
+                                                &lt;table border="0">
+                        &lt;form action="" method="post">
+                            &lt;input type="hidden" name="action" value="register_do">
+                            &lt;tr>
+                                &lt;td>Login&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="login" value="test_48274">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Email&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="email" maxlength="32" value="test_email_442@642.ru">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Password (8-16 symbols)&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="password" maxlength="16" value="12345678">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Confirm password&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="password_confirm" maxlength="16"
+                                           value="123456789">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Your sex&lt;/td>
+                                &lt;td>
+                                    &lt;select name="sex">
+                                        &lt;option value="male">male&lt;/option>
+                                        &lt;option value="female">female&lt;/option>
+                                        &lt;option value="none">none&lt;/option>
+                                    &lt;/select>
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Subscribe to our news&lt;/td>
+                                &lt;td>&lt;input type="checkbox" name="news" >&lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>
+                                    &lt;input type="button" value="Back" onclick="window.location='?action=login'">
+                                &lt;/td>
+                                &lt;td align="right">
+                                    &lt;input type="reset" value="Reset">&amp;nbsp;&lt;input type="submit" value="Register">
+                                &lt;/td>
+                            &lt;/tr>
+                        &lt;/form>
+                    &lt;/table>
+                                                
+                                                
+                                            &lt;/div>
+                                        &lt;/td>
+                                    &lt;/tr>
+                                &lt;/table>
+                            &lt;/td>
+                        &lt;/tr>
+                    &lt;/table>
+                    &lt;script>
+                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                    
+                      ga('create', 'UA-45669254-2', 'auto');
+                      ga('send', 'pageview');
+                    
+                    &lt;/script>
+                    &lt;/body>
+                    &lt;/html>
+                    , include expect - password doesn't match confirmation</name>
+                    <title>Checking the expected value; Actual - 
+                    &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+                    &lt;html>
+                    &lt;head>
+                        &lt;title>
+                            
+                            Welcome to our buggy system!
+                            
+                        &lt;/title>
+                        &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        &lt;style type="text/css">
+                            div.content {
+                                width: 440px;
+                                padding: 10px;
+                                background-color: greenyellow;
+                                border: 1px solid #93d928;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                    
+                            table.logo {
+                                background: url( "/img/background.png" );
+                                background-repeat: no-repeat;
+                                width: 402px;
+                                height: 285px;
+                            }
+                    
+                            span.message {
+                                color: green;
+                            }
+                    
+                            div.error {
+                                width: 440px;
+                                padding: 10px;
+                                border: 1px solid coral;
+                                margin-bottom: 10px;
+                                text-align: left;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                        &lt;/style>
+                    &lt;/head>
+                    &lt;body>
+                    &lt;table width="100%" height="100%" border="0">
+                        &lt;tr align="center" valign="middle">
+                            &lt;td>
+                                &lt;table class="logo" border="0">
+                                    &lt;tr align="center" valign="middle">
+                                        &lt;td>
+                                            
+                                            &lt;div class="error">
+                                                
+                                                - password doesn't match confirmation&lt;br>
+                                                
+                                            &lt;/div>
+                                            
+                                            &lt;div class="content">
+                                                
+                                                
+                                                
+                                                &lt;table border="0">
+                        &lt;form action="" method="post">
+                            &lt;input type="hidden" name="action" value="register_do">
+                            &lt;tr>
+                                &lt;td>Login&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="login" value="test_48274">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Email&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="email" maxlength="32" value="test_email_442@642.ru">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Password (8-16 symbols)&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="password" maxlength="16" value="12345678">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Confirm password&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="password_confirm" maxlength="16"
+                                           value="123456789">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Your sex&lt;/td>
+                                &lt;td>
+                                    &lt;select name="sex">
+                                        &lt;option value="male">male&lt;/option>
+                                        &lt;option value="female">female&lt;/option>
+                                        &lt;option value="none">none&lt;/option>
+                                    &lt;/select>
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Subscribe to our news&lt;/td>
+                                &lt;td>&lt;input type="checkbox" name="news" >&lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>
+                                    &lt;input type="button" value="Back" onclick="window.location='?action=login'">
+                                &lt;/td>
+                                &lt;td align="right">
+                                    &lt;input type="reset" value="Reset">&amp;nbsp;&lt;input type="submit" value="Register">
+                                &lt;/td>
+                            &lt;/tr>
+                        &lt;/form>
+                    &lt;/table>
+                                                
+                                                
+                                            &lt;/div>
+                                        &lt;/td>
+                                    &lt;/tr>
+                                &lt;/table>
+                            &lt;/td>
+                        &lt;/tr>
+                    &lt;/table>
+                    &lt;script>
+                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                    
+                      ga('create', 'UA-45669254-2', 'auto');
+                      ga('send', 'pageview');
+                    
+                    &lt;/script>
+                    &lt;/body>
+                    &lt;/html>
+                    , include expect - password doesn't match confirmation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1519721873201' status='passed' stop='1519721873377'>
+            <name>register with incorrect sex</name>
+            <title>register with incorrect sex</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1519721873201' status='passed' stop='1519721873376'>
+                    <name>Registration;</name>
+                    <title>Registration;</title>
+                    <attachments>
+                        <attachment title='Data' source='c2c7550b-b7b7-4fbe-a83e-720d17ce6d62-attachment.txt' type='text/plain' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1519721873376' status='passed' stop='1519721873376'>
+                    <name>Checking the expected value; Actual - 
+                    &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+                    &lt;html>
+                    &lt;head>
+                        &lt;title>
+                            
+                            Welcome to our buggy system!
+                            
+                        &lt;/title>
+                        &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        &lt;style type="text/css">
+                            div.content {
+                                width: 440px;
+                                padding: 10px;
+                                background-color: greenyellow;
+                                border: 1px solid #93d928;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                    
+                            table.logo {
+                                background: url( "/img/background.png" );
+                                background-repeat: no-repeat;
+                                width: 402px;
+                                height: 285px;
+                            }
+                    
+                            span.message {
+                                color: green;
+                            }
+                    
+                            div.error {
+                                width: 440px;
+                                padding: 10px;
+                                border: 1px solid coral;
+                                margin-bottom: 10px;
+                                text-align: left;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                        &lt;/style>
+                    &lt;/head>
+                    &lt;body>
+                    &lt;table width="100%" height="100%" border="0">
+                        &lt;tr align="center" valign="middle">
+                            &lt;td>
+                                &lt;table class="logo" border="0">
+                                    &lt;tr align="center" valign="middle">
+                                        &lt;td>
+                                            
+                                            &lt;div class="error">
+                                                
+                                                - so what sex are you, really?&lt;br>
+                                                
+                                            &lt;/div>
+                                            
+                                            &lt;div class="content">
+                                                
+                                                
+                                                
+                                                &lt;table border="0">
+                        &lt;form action="" method="post">
+                            &lt;input type="hidden" name="action" value="register_do">
+                            &lt;tr>
+                                &lt;td>Login&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="login" value="test_96391">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Email&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="email" maxlength="32" value="test_email_314@253.ru">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Password (8-16 symbols)&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="password" maxlength="16" value="12345678">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Confirm password&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="password_confirm" maxlength="16"
+                                           value="12345678">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Your sex&lt;/td>
+                                &lt;td>
+                                    &lt;select name="sex">
+                                        &lt;option value="male">male&lt;/option>
+                                        &lt;option value="female">female&lt;/option>
+                                        &lt;option value="none">none&lt;/option>
+                                    &lt;/select>
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Subscribe to our news&lt;/td>
+                                &lt;td>&lt;input type="checkbox" name="news" >&lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>
+                                    &lt;input type="button" value="Back" onclick="window.location='?action=login'">
+                                &lt;/td>
+                                &lt;td align="right">
+                                    &lt;input type="reset" value="Reset">&amp;nbsp;&lt;input type="submit" value="Register">
+                                &lt;/td>
+                            &lt;/tr>
+                        &lt;/form>
+                    &lt;/table>
+                                                
+                                                
+                                            &lt;/div>
+                                        &lt;/td>
+                                    &lt;/tr>
+                                &lt;/table>
+                            &lt;/td>
+                        &lt;/tr>
+                    &lt;/table>
+                    &lt;script>
+                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                    
+                      ga('create', 'UA-45669254-2', 'auto');
+                      ga('send', 'pageview');
+                    
+                    &lt;/script>
+                    &lt;/body>
+                    &lt;/html>
+                    , include expect - so what sex are you, really?</name>
+                    <title>Checking the expected value; Actual - 
+                    &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+                    &lt;html>
+                    &lt;head>
+                        &lt;title>
+                            
+                            Welcome to our buggy system!
+                            
+                        &lt;/title>
+                        &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        &lt;style type="text/css">
+                            div.content {
+                                width: 440px;
+                                padding: 10px;
+                                background-color: greenyellow;
+                                border: 1px solid #93d928;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                    
+                            table.logo {
+                                background: url( "/img/background.png" );
+                                background-repeat: no-repeat;
+                                width: 402px;
+                                height: 285px;
+                            }
+                    
+                            span.message {
+                                color: green;
+                            }
+                    
+                            div.error {
+                                width: 440px;
+                                padding: 10px;
+                                border: 1px solid coral;
+                                margin-bottom: 10px;
+                                text-align: left;
+                                -moz-border-radius: 10px;
+                                -webkit-border-radius: 10px;
+                            }
+                        &lt;/style>
+                    &lt;/head>
+                    &lt;body>
+                    &lt;table width="100%" height="100%" border="0">
+                        &lt;tr align="center" valign="middle">
+                            &lt;td>
+                                &lt;table class="logo" border="0">
+                                    &lt;tr align="center" valign="middle">
+                                        &lt;td>
+                                            
+                                            &lt;div class="error">
+                                                
+                                                - so what sex are you, really?&lt;br>
+                                                
+                                            &lt;/div>
+                                            
+                                            &lt;div class="content">
+                                                
+                                                
+                                                
+                                                &lt;table border="0">
+                        &lt;form action="" method="post">
+                            &lt;input type="hidden" name="action" value="register_do">
+                            &lt;tr>
+                                &lt;td>Login&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="login" value="test_96391">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Email&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="email" maxlength="32" value="test_email_314@253.ru">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Password (8-16 symbols)&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="password" maxlength="16" value="12345678">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Confirm password&lt;/td>
+                                &lt;td>
+                                    &lt;input type="text" name="password_confirm" maxlength="16"
+                                           value="12345678">
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Your sex&lt;/td>
+                                &lt;td>
+                                    &lt;select name="sex">
+                                        &lt;option value="male">male&lt;/option>
+                                        &lt;option value="female">female&lt;/option>
+                                        &lt;option value="none">none&lt;/option>
+                                    &lt;/select>
+                                &lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>Subscribe to our news&lt;/td>
+                                &lt;td>&lt;input type="checkbox" name="news" >&lt;/td>
+                            &lt;/tr>
+                            &lt;tr>
+                                &lt;td>
+                                    &lt;input type="button" value="Back" onclick="window.location='?action=login'">
+                                &lt;/td>
+                                &lt;td align="right">
+                                    &lt;input type="reset" value="Reset">&amp;nbsp;&lt;input type="submit" value="Register">
+                                &lt;/td>
+                            &lt;/tr>
+                        &lt;/form>
+                    &lt;/table>
+                                                
+                                                
+                                            &lt;/div>
+                                        &lt;/td>
+                                    &lt;/tr>
+                                &lt;/table>
+                            &lt;/td>
+                        &lt;/tr>
+                    &lt;/table>
+                    &lt;script>
+                      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                    
+                      ga('create', 'UA-45669254-2', 'auto');
+                      ga('send', 'pageview');
+                    
+                    &lt;/script>
+                    &lt;/body>
+                    &lt;/html>
+                    , include expect - so what sex are you, really?</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

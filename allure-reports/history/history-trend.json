@@ -1,5 +1,5 @@
 [ {
-  "statistic" : {
+  "data" : {
     "failed" : 15,
     "broken" : 0,
     "skipped" : 0,

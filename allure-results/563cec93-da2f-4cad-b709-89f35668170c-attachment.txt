@@ -1,0 +1,7 @@
+{
+ "email": "test_email_551@157.ru",
+ "login": "test_58878",
+ "password": "12345678",
+ "password_confirm": "12345678",
+ "sex": "qweqwe"
+}

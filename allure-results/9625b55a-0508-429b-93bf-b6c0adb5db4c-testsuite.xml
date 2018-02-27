@@ -1,0 +1,215 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1519721873385' stop='1519721874570'>
+    <name>API ./Register of new user check status of request</name>
+    <title>API ./Register of new user check status of request</title>
+    <test-cases>
+        <test-case start='1519721873385' status='passed' stop='1519721873593'>
+            <name>register with correct values (await status 200)</name>
+            <title>register with correct values (await status 200)</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1519721873385' status='passed' stop='1519721873593'>
+                    <name>Registration;</name>
+                    <title>Registration;</title>
+                    <attachments>
+                        <attachment title='Data' source='08268cd1-324f-4c17-b2d0-d57f07115c08-attachment.txt' type='text/plain' size='135'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1519721873593' status='passed' stop='1519721873593'>
+                    <name>Check status; Actual - 200, Expect - 200</name>
+                    <title>Check status; Actual - 200, Expect - 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1519721873593' status='failed' stop='1519721873767'>
+            <name>register with incorrect email (await status 400)</name>
+            <title>register with incorrect email (await status 400)</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1519721873593' status='passed' stop='1519721873767'>
+                    <name>Registration;</name>
+                    <title>Registration;</title>
+                    <attachments>
+                        <attachment title='Data' source='4b97f508-cfa0-4c3e-b6ca-6223db0478f6-attachment.txt' type='text/plain' size='130'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1519721873767' status='broken' stop='1519721873767'>
+                    <name>Check status; Actual - 200, Expect - 400</name>
+                    <title>Check status; Actual - 200, Expect - 400</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>
+                      AssertionError: expected 200 to equal 400
+                      + expected - actual
+                
+                      -200
+                      +400
+                      </message>
+                <stack-trace>      at allure.createStep (test/register.js:15:28)
+                      at node_modules/allure-js-commons/runtime.js:18:31
+                      at Context.it (test/register.js:137:13)
+                      at &lt;anonymous>
+                      at process._tickCallback (internal/process/next_tick.js:188:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1519721873767' status='failed' stop='1519721874048'>
+            <name>register with incorrect login (count of symbols more than 16) (await status 400)</name>
+            <title>register with incorrect login (count of symbols more than 16) (await status 400)</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1519721873767' status='passed' stop='1519721874048'>
+                    <name>Registration;</name>
+                    <title>Registration;</title>
+                    <attachments>
+                        <attachment title='Data' source='f08c2dde-ff7c-4c05-8b13-afb31714a5c6-attachment.txt' type='text/plain' size='148'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1519721874048' status='broken' stop='1519721874048'>
+                    <name>Check status; Actual - 200, Expect - 400</name>
+                    <title>Check status; Actual - 200, Expect - 400</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>
+                      AssertionError: expected 200 to equal 400
+                      + expected - actual
+                
+                      -200
+                      +400
+                      </message>
+                <stack-trace>      at allure.createStep (test/register.js:15:28)
+                      at node_modules/allure-js-commons/runtime.js:18:31
+                      at Context.it (test/register.js:156:13)
+                      at &lt;anonymous>
+                      at process._tickCallback (internal/process/next_tick.js:188:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1519721874049' status='failed' stop='1519721874221'>
+            <name>register with incorrect password (with spaces) (await status 400)</name>
+            <title>register with incorrect password (with spaces) (await status 400)</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1519721874049' status='passed' stop='1519721874221'>
+                    <name>Registration;</name>
+                    <title>Registration;</title>
+                    <attachments>
+                        <attachment title='Data' source='2dd11141-86ea-4052-8c86-61a3636fcde4-attachment.txt' type='text/plain' size='143'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1519721874221' status='broken' stop='1519721874221'>
+                    <name>Check status; Actual - 200, Expect - 400</name>
+                    <title>Check status; Actual - 200, Expect - 400</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>
+                      AssertionError: expected 200 to equal 400
+                      + expected - actual
+                
+                      -200
+                      +400
+                      </message>
+                <stack-trace>      at allure.createStep (test/register.js:15:28)
+                      at node_modules/allure-js-commons/runtime.js:18:31
+                      at Context.it (test/register.js:175:13)
+                      at &lt;anonymous>
+                      at process._tickCallback (internal/process/next_tick.js:188:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1519721874222' status='failed' stop='1519721874365'>
+            <name>register with incorrect password_confirm (await status 400)</name>
+            <title>register with incorrect password_confirm (await status 400)</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1519721874222' status='passed' stop='1519721874365'>
+                    <name>Registration;</name>
+                    <title>Registration;</title>
+                    <attachments>
+                        <attachment title='Data' source='7f30bced-a9d1-4851-9c39-a5457b121f7d-attachment.txt' type='text/plain' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1519721874365' status='broken' stop='1519721874365'>
+                    <name>Check status; Actual - 200, Expect - 400</name>
+                    <title>Check status; Actual - 200, Expect - 400</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>
+                      AssertionError: expected 200 to equal 400
+                      + expected - actual
+                
+                      -200
+                      +400
+                      </message>
+                <stack-trace>      at allure.createStep (test/register.js:15:28)
+                      at node_modules/allure-js-commons/runtime.js:18:31
+                      at Context.it (test/register.js:194:13)
+                      at &lt;anonymous>
+                      at process._tickCallback (internal/process/next_tick.js:188:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1519721874365' status='failed' stop='1519721874570'>
+            <name>register with incorrect sex (await status 400)</name>
+            <title>register with incorrect sex (await status 400)</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1519721874365' status='passed' stop='1519721874569'>
+                    <name>Registration;</name>
+                    <title>Registration;</title>
+                    <attachments>
+                        <attachment title='Data' source='563cec93-da2f-4cad-b709-89f35668170c-attachment.txt' type='text/plain' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1519721874569' status='broken' stop='1519721874569'>
+                    <name>Check status; Actual - 200, Expect - 400</name>
+                    <title>Check status; Actual - 200, Expect - 400</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>
+                      AssertionError: expected 200 to equal 400
+                      + expected - actual
+                
+                      -200
+                      +400
+                      </message>
+                <stack-trace>      at allure.createStep (test/register.js:15:28)
+                      at node_modules/allure-js-commons/runtime.js:18:31
+                      at Context.it (test/register.js:213:13)
+                      at &lt;anonymous>
+                      at process._tickCallback (internal/process/next_tick.js:188:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

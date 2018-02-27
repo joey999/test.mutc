@@ -1,0 +1,457 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1519689089039" stop="1519689424399">
+  <name>UI ./Register new user</name>
+  <title>UI ./Register new user</title>
+  <test-cases>
+    <test-case start="1519689089041" stop="1519689098134" status="passed">
+      <name>Check fields</name>
+      <title>Check fields</title>
+      <steps>
+        <step start="1519689089923" stop="1519689089923" status="passed">
+          <name>I go to /cgi-bin/bug.pl?action=register page</name>
+          <title>I go to /cgi-bin/bug.pl?action=register page</title>
+          <attachments/>
+        </step>
+        <step start="1519689089923" stop="1519689089923" status="passed">
+          <name>I should see 'login' input</name>
+          <title>I should see 'login' input</title>
+          <attachments/>
+        </step>
+        <step start="1519689089923" stop="1519689090612" status="passed">
+          <name>I should see 'email' input</name>
+          <title>I should see 'email' input</title>
+          <attachments>
+            <attachment source="f3df8a2d61ac2bb44c60f0d205e10a9d863af07bcbbc87b0213b2ae47256b3e7-attachment.png" title="./screenshot_2018-02-27-02-51-30.448.png" size="53847" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1519689090612" stop="1519689091322" status="passed">
+          <name>I should see 'password' input</name>
+          <title>I should see 'password' input</title>
+          <attachments>
+            <attachment source="f3df8a2d61ac2bb44c60f0d205e10a9d863af07bcbbc87b0213b2ae47256b3e7-attachment.png" title="./screenshot_2018-02-27-02-51-31.135.png" size="53847" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1519689091322" stop="1519689092051" status="passed">
+          <name>I should see 'password_confirm' input</name>
+          <title>I should see 'password_confirm' input</title>
+          <attachments>
+            <attachment source="f3df8a2d61ac2bb44c60f0d205e10a9d863af07bcbbc87b0213b2ae47256b3e7-attachment.png" title="./screenshot_2018-02-27-02-51-31.844.png" size="53847" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1519689092051" stop="1519689096188" status="passed">
+          <name>I should see 'sex' 'option' manual</name>
+          <title>I should see 'sex' 'option' manual</title>
+          <attachments>
+            <attachment source="f3df8a2d61ac2bb44c60f0d205e10a9d863af07bcbbc87b0213b2ae47256b3e7-attachment.png" title="./screenshot_2018-02-27-02-51-36.020.png" size="53847" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1519689096188" stop="1519689098107" status="passed">
+          <name>I should see 'news' 'checkbox' manual</name>
+          <title>I should see 'news' 'checkbox' manual</title>
+          <attachments>
+            <attachment source="f3df8a2d61ac2bb44c60f0d205e10a9d863af07bcbbc87b0213b2ae47256b3e7-attachment.png" title="./screenshot_2018-02-27-02-51-37.944.png" size="53847" type="image/png"/>
+          </attachments>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70182613817300"/>
+        <label name="host" value="iMac-evgeniy.gotech.local"/>
+        <label name="feature" value="Register new user"/>
+        <label name="story" value="Check fields"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1519689098135" stop="1519689126986" status="passed">
+      <name>Create user with correct values</name>
+      <title>Create user with correct values</title>
+      <steps>
+        <step start="1519689118103" stop="1519689118103" status="passed">
+          <name>I go to /cgi-bin/bug.pl?action=register page</name>
+          <title>I go to /cgi-bin/bug.pl?action=register page</title>
+          <attachments/>
+        </step>
+        <step start="1519689118103" stop="1519689118105" status="passed">
+          <name>I set fields manual:</name>
+          <title>I set fields manual:</title>
+          <attachments>
+            <attachment source="45574191b82a014b4fb4345a4cbaac17a8048f141b6c1f60791068bc702a645e-attachment.txt" title="multiline_arg" size="236" type="text/plain"/>
+          </attachments>
+        </step>
+        <step start="1519689118105" stop="1519689123800" status="passed">
+          <name>I click 'Register' button manual</name>
+          <title>I click 'Register' button manual</title>
+          <attachments>
+            <attachment source="ecbec2c4e4f1abb416f06953684f6f5c40f5d8f6bfc13b3c95fff903c24e54bb-attachment.png" title="./screenshot_2018-02-27-02-52-03.651.png" size="37349" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1519689123800" stop="1519689126963" status="passed">
+          <name>I should see message 'Congratulations! You have been successfully registered.'</name>
+          <title>I should see message 'Congratulations! You have been successfully registered.'</title>
+          <attachments>
+            <attachment source="ecbec2c4e4f1abb416f06953684f6f5c40f5d8f6bfc13b3c95fff903c24e34bb-attachment.png" title="./screenshot_2018-02-27-02-52-06.813.png" size="37349" type="image/png"/>
+          </attachments>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70182613817300"/>
+        <label name="host" value="iMac-evgeniy.gotech.local"/>
+        <label name="feature" value="Register new user"/>
+        <label name="story" value="Create user with correct values"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1519689126988" stop="1519689141867" status="passed">
+      <name>Try to create user with empty fields</name>
+      <title>Try to create user with empty fields</title>
+      <steps>
+        <step start="1519689134623" stop="1519689134623" status="passed">
+          <name>I go to /cgi-bin/bug.pl?action=register page</name>
+          <title>I go to /cgi-bin/bug.pl?action=register page</title>
+          <attachments/>
+        </step>
+        <step start="1519689134623" stop="1519689134625" status="passed">
+          <name>I set fields manual:</name>
+          <title>I set fields manual:</title>
+          <attachments>
+            <attachment source="eefef0dea43509b7641a41ca704b8fbd00e67265029928b39a5ca04d61621162-attachment.txt" title="multiline_arg" size="171" type="text/plain"/>
+          </attachments>
+        </step>
+        <step start="1519689134625" stop="1519689140246" status="passed">
+          <name>I click 'Register' button manual</name>
+          <title>I click 'Register' button manual</title>
+          <attachments>
+            <attachment source="9d3181817360f8aabb99292944392e63cd17c65fb89238c491c323bc71306fca-attachment.png" title="./screenshot_2018-02-27-02-52-20.066.png" size="79635" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1519689140246" stop="1519689141842" status="passed">
+          <name>I should see message 'error'</name>
+          <title>I should see message 'error'</title>
+          <attachments>
+            <attachment source="9d3181817360f8aabb99292944392e63cd17c65fb89238c491c323bc71309fca-attachment.png" title="./screenshot_2018-02-27-02-52-21.663.png" size="79635" type="image/png"/>
+          </attachments>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70182613817300"/>
+        <label name="host" value="iMac-evgeniy.gotech.local"/>
+        <label name="feature" value="Register new user"/>
+        <label name="story" value="Try to create user with empty fields"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1519689141869" stop="1519689170939" status="failed">
+      <name>Try to input in Login more than 16 symbols</name>
+      <title>Try to input in Login more than 16 symbols</title>
+      <failure>
+        <message>Expected - '1234567891234567', actual - '123456789123456789'</message>
+        <stack-trace>./features/support/env.rb:47:in `manual_YesNo'&#xD;
+./features/step_definitions/auth_steps.rb:6:in `/^I should see value of fields manual:$/'&#xD;
+features/Register.feature:37:in `Then I should see value of fields manual:'</stack-trace>
+      </failure>
+      <steps>
+        <step start="1519689162289" stop="1519689162289" status="passed">
+          <name>I go to /cgi-bin/bug.pl?action=register page</name>
+          <title>I go to /cgi-bin/bug.pl?action=register page</title>
+          <attachments/>
+        </step>
+        <step start="1519689162289" stop="1519689162289" status="passed">
+          <name>I set '123456789123456789' value to field 'Login'</name>
+          <title>I set '123456789123456789' value to field 'Login'</title>
+          <attachments/>
+        </step>
+        <step start="1519689162289" stop="1519689170751" status="failed">
+          <name>I should see value of fields manual:</name>
+          <title>I should see value of fields manual:</title>
+          <attachments>
+            <attachment source="831991ae12a6f917291cd41e3c9ea121ba9e0ff4a8b5728d39c460fbe89b1537-attachment.txt" title="multiline_arg" size="40" type="text/plain"/>
+            <attachment source="d65fdb3ccc63cbf348f591b5e6948f7b699ddd63052ee3664ffeaed0ae79cf9e-attachment.png" title="./screenshot_2018-02-27-02-52-50.751.png" size="57077" type="image/png"/>
+          </attachments>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70182613817300"/>
+        <label name="host" value="iMac-evgeniy.gotech.local"/>
+        <label name="feature" value="Register new user"/>
+        <label name="story" value="Try to input in Login more than 16 symbols"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1519689170941" stop="1519689214508" status="passed">
+      <name>Try to input in Email two @ symbols</name>
+      <title>Try to input in Email two @ symbols</title>
+      <steps>
+        <step start="1519689206892" stop="1519689206892" status="passed">
+          <name>I go to /cgi-bin/bug.pl?action=register page</name>
+          <title>I go to /cgi-bin/bug.pl?action=register page</title>
+          <attachments/>
+        </step>
+        <step start="1519689206892" stop="1519689206914" status="passed">
+          <name>I set fields manual:</name>
+          <title>I set fields manual:</title>
+          <attachments>
+            <attachment source="c2adbfa85cfea85f8b28baa4ed814d3c9c2e7afaabb1708c0c04d8b28201d4bb-attachment.txt" title="multiline_arg" size="236" type="text/plain"/>
+          </attachments>
+        </step>
+        <step start="1519689206914" stop="1519689211307" status="passed">
+          <name>I click 'Register' button manual</name>
+          <title>I click 'Register' button manual</title>
+          <attachments>
+            <attachment source="81a757616ab38f9d4d88e56dcabcad6e5e2b8dfd480beb0e6336f91b971f8624-attachment.png" title="./screenshot_2018-02-27-02-53-31.134.png" size="71764" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1519689211307" stop="1519689214483" status="passed">
+          <name>I should see message ' - not a valid email address'</name>
+          <title>I should see message ' - not a valid email address'</title>
+          <attachments>
+            <attachment source="81a757616ab38f9d4d88e56dcabcad6e5e2b8dfd480beb0e6336f91b971f8638-attachment.png" title="./screenshot_2018-02-27-02-53-34.307.png" size="71764" type="image/png"/>
+          </attachments>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70182613817300"/>
+        <label name="host" value="iMac-evgeniy.gotech.local"/>
+        <label name="feature" value="Register new user"/>
+        <label name="story" value="Try to input in Email two @ symbols"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1519689214509" stop="1519689242589" status="passed">
+      <name>Try to input in Password more than 16 symbols</name>
+      <title>Try to input in Password more than 16 symbols</title>
+      <steps>
+        <step start="1519689234370" stop="1519689234370" status="passed">
+          <name>I go to /cgi-bin/bug.pl?action=register page</name>
+          <title>I go to /cgi-bin/bug.pl?action=register page</title>
+          <attachments/>
+        </step>
+        <step start="1519689234370" stop="1519689234370" status="passed">
+          <name>I set '123456789123456789' value to field 'Password'</name>
+          <title>I set '123456789123456789' value to field 'Password'</title>
+          <attachments/>
+        </step>
+        <step start="1519689234370" stop="1519689242568" status="passed">
+          <name>I should see value of fields manual:</name>
+          <title>I should see value of fields manual:</title>
+          <attachments>
+            <attachment source="c08116d631adaf5cffc9c670b2ba8450a0f06a6c8468d346d7ac4857bed23661-attachment.png" title="./screenshot_2018-02-27-02-54-02.241.png" size="56583" type="image/png"/>
+            <attachment source="a294b8fde08da2236e5e15254d7c1cc2bbd8a2126b1710bf47ecfeff5f101b06-attachment.txt" title="multiline_arg" size="43" type="text/plain"/>
+          </attachments>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70182613817300"/>
+        <label name="host" value="iMac-evgeniy.gotech.local"/>
+        <label name="feature" value="Register new user"/>
+        <label name="story" value="Try to input in Password more than 16 symbols"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1519689242591" stop="1519689287498" status="passed">
+      <name>Try to create user with incorrect field 'confirm password'</name>
+      <title>Try to create user with incorrect field 'confirm password'</title>
+      <steps>
+        <step start="1519689276367" stop="1519689276367" status="passed">
+          <name>I go to /cgi-bin/bug.pl?action=register page</name>
+          <title>I go to /cgi-bin/bug.pl?action=register page</title>
+          <attachments/>
+        </step>
+        <step start="1519689276367" stop="1519689276368" status="passed">
+          <name>I set fields manual:</name>
+          <title>I set fields manual:</title>
+          <attachments>
+            <attachment source="2a494b9472d7ec31a56469b92dded537ce1b0452bbd98afe092fa51416d8382c-attachment.txt" title="multiline_arg" size="236" type="text/plain"/>
+          </attachments>
+        </step>
+        <step start="1519689276368" stop="1519689283849" status="passed">
+          <name>I click 'Register' button manual</name>
+          <title>I click 'Register' button manual</title>
+          <attachments>
+            <attachment source="987798d92fadca476b1c29bee8a2565bd47602e5db906eacad3aafa0075f4962-attachment.png" title="./screenshot_2018-02-27-02-54-43.676.png" size="69172" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1519689283849" stop="1519689287471" status="passed">
+          <name>I should see message '- password doesn't match confirmation'</name>
+          <title>I should see message '- password doesn't match confirmation'</title>
+          <attachments>
+            <attachment source="987798d92fadca476b1c29bee8a2565bd47602e5db906eacad3aafa0075f4978-attachment.png" title="./screenshot_2018-02-27-02-54-47.299.png" size="69172" type="image/png"/>
+          </attachments>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70182613817300"/>
+        <label name="host" value="iMac-evgeniy.gotech.local"/>
+        <label name="feature" value="Register new user"/>
+        <label name="story" value="Try to create user with incorrect field 'confirm password'"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1519689287499" stop="1519689330620" status="failed">
+      <name>Try to create user with incorrect password field (with spaces)</name>
+      <title>Try to create user with incorrect password field (with spaces)</title>
+      <failure>
+        <message>Expected - 'password incorrect', actual - 'Congratulations! You have been successfully registered.'</message>
+        <stack-trace>./features/support/env.rb:47:in `manual_YesNo'&#xD;
+./features/step_definitions/auth_steps.rb:2:in `/^I should see message '(.*)'$/'&#xD;
+features/Register.feature:73:in `Then I should see message '- password incorrect''</stack-trace>
+      </failure>
+      <steps>
+        <step start="1519689320839" stop="1519689320839" status="passed">
+          <name>I go to /cgi-bin/bug.pl?action=register page</name>
+          <title>I go to /cgi-bin/bug.pl?action=register page</title>
+          <attachments/>
+        </step>
+        <step start="1519689320839" stop="1519689320849" status="passed">
+          <name>I set fields manual:</name>
+          <title>I set fields manual:</title>
+          <attachments>
+            <attachment source="adc11c97e16303a71894b99c6e908c743798febb4238f087826c46e94cd69c1f-attachment.txt" title="multiline_arg" size="236" type="text/plain"/>
+          </attachments>
+        </step>
+        <step start="1519689320849" stop="1519689326893" status="passed">
+          <name>I click 'Register' button manual</name>
+          <title>I click 'Register' button manual</title>
+          <attachments>
+            <attachment source="ecbec2c4e4f1abb416f06953684f6f5c40f5d8f6bfc13b3c95fff903c24e54bb-attachment.png" title="./screenshot_2018-02-27-02-55-26.743.png" size="37349" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1519689326893" stop="1519689330445" status="failed">
+          <name>I should see message '- password incorrect'</name>
+          <title>I should see message '- password incorrect'</title>
+          <attachments>
+            <attachment source="ecbec2c4e4f1abb416f06953684f6f5c40f5d8f6bfc13b3c95fff903c24e57bb-attachment.png" title="./screenshot_2018-02-27-02-55-30.446.png" size="37349" type="image/png"/>
+          </attachments>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70182613817300"/>
+        <label name="host" value="iMac-evgeniy.gotech.local"/>
+        <label name="feature" value="Register new user"/>
+        <label name="story" value="Try to create user with incorrect password field (with spaces)"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1519689330622" stop="1519689379657" status="failed">
+      <name>Try to create user with incorrect Email field (with spaces)</name>
+      <title>Try to create user with incorrect Email field (with spaces)</title>
+      <failure>
+        <message>Expected - '- email incorrect', actual - 'Congratulations! You have been successfully registered'</message>
+        <stack-trace>./features/support/env.rb:47:in `manual_YesNo'&#xD;
+./features/step_definitions/auth_steps.rb:2:in `/^I should see message '(.*)'$/'&#xD;
+features/Register.feature:83:in `Then I should see message '- email incorrect''</stack-trace>
+      </failure>
+      <steps>
+        <step start="1519689369194" stop="1519689369194" status="passed">
+          <name>I go to /cgi-bin/bug.pl?action=register page</name>
+          <title>I go to /cgi-bin/bug.pl?action=register page</title>
+          <attachments/>
+        </step>
+        <step start="1519689369194" stop="1519689369195" status="passed">
+          <name>I set fields manual:</name>
+          <title>I set fields manual:</title>
+          <attachments>
+            <attachment source="7137ecdf5a0c8481a84a31be90c506f296d68ad0516f1758c4d17cf1265a8d55-attachment.txt" title="multiline_arg" size="236" type="text/plain"/>
+          </attachments>
+        </step>
+        <step start="1519689369195" stop="1519689376519" status="passed">
+          <name>I click 'Register' button manual</name>
+          <title>I click 'Register' button manual</title>
+          <attachments>
+            <attachment source="ecbec2c4e4f1abb416f06953684f6f5c40f5d8f6bfc13b3c95fff903c24e54bb-attachment.png" title="./screenshot_2018-02-27-02-56-16.368.png" size="37349" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1519689376519" stop="1519689379486" status="failed">
+          <name>I should see message '- email incorrect'</name>
+          <title>I should see message '- email incorrect'</title>
+          <attachments>
+            <attachment source="ecbec2c4e4f1abb416f06953684f6f5c40f5d8f6bfc13b3c95fff903c24e57bb-attachment.png" title="./screenshot_2018-02-27-02-56-19.486.png" size="37349" type="image/png"/>
+          </attachments>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70182613817300"/>
+        <label name="host" value="iMac-evgeniy.gotech.local"/>
+        <label name="feature" value="Register new user"/>
+        <label name="story" value="Try to create user with incorrect Email field (with spaces)"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1519689379659" stop="1519689424382" status="failed">
+      <name>Check Reset button</name>
+      <title>Check Reset button</title>
+      <failure>
+        <message>Expected empty fields, actual is not empty; See attachment</message>
+        <stack-trace>./features/support/env.rb:47:in `manual_YesNo'&#xD;
+./features/step_definitions/auth_steps.rb:6:in `/^I should see value of fields manual:$/'&#xD;
+features/Register.feature:94:in `Then I should see value of fields manual:'</stack-trace>
+      </failure>
+      <steps>
+        <step start="1519689405266" stop="1519689405266" status="passed">
+          <name>I go to /cgi-bin/bug.pl?action=register page</name>
+          <title>I go to /cgi-bin/bug.pl?action=register page</title>
+          <attachments/>
+        </step>
+        <step start="1519689405266" stop="1519689405268" status="passed">
+          <name>I set fields manual:</name>
+          <title>I set fields manual:</title>
+          <attachments>
+            <attachment source="db42d043307774c678498018a42b847bd75d54822a4d1746ad5b487e4f327706-attachment.txt" title="multiline_arg" size="266" type="text/plain"/>
+          </attachments>
+        </step>
+        <step start="1519689405268" stop="1519689412008" status="passed">
+          <name>I click 'Register' button manual</name>
+          <title>I click 'Register' button manual</title>
+          <attachments>
+            <attachment source="45ae239cf940e5340d2973f1cda3dab63d47d9e612b2a0c87c7b1e03a5fb26c5-attachment.png" title="./screenshot_2018-02-27-02-56-51.818.png" size="84440" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1519689412008" stop="1519689420484" status="passed">
+          <name>I click 'Reset' button manual</name>
+          <title>I click 'Reset' button manual</title>
+          <attachments>
+            <attachment source="45ae239cf940e5340d2973f1cda3dab63d47d9e612b2a0c87c7b1e03a5fb26c5-attachment.png" title="./screenshot_2018-02-27-02-57-00.301.png" size="84440" type="image/png"/>
+          </attachments>
+        </step>
+        <step start="1519689420484" stop="1519689424174" status="failed">
+          <name>I should see value of fields manual:</name>
+          <title>I should see value of fields manual:</title>
+          <attachments>
+            <attachment source="eefef0dea43509b7641a41ca704b8fbd00e67265029928b39a5ca04d61621162-attachment.txt" title="multiline_arg" size="171" type="text/plain"/>
+            <attachment source="45ae239cf940e5340d2973f1cda3dab63d47d9e612b2a0c87c7b1e03a5fb26c6-attachment.png" title="./screenshot_2018-02-27-02-57-04.175.png" size="84440" type="image/png"/>
+          </attachments>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="70182613817300"/>
+        <label name="host" value="iMac-evgeniy.gotech.local"/>
+        <label name="feature" value="Register new user"/>
+        <label name="story" value="Check Reset button"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="70182613817300"/>
+    <label name="host" value="iMac-evgeniy.gotech.local"/>
+  </labels>
+</ns2:test-suite>

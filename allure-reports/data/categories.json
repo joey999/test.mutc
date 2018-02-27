@@ -7,7 +7,7 @@
       "name" : "expected '1234567891234567', actual '123456789123456789'",
       "children" : [ {
         "name" : "Check length control of login field (max 16 symbols)",
-        "uid" : "34a8090718349bca",
+        "uid" : "6244aabf49b1f932",
         "parentUid" : "d907692505a13f4463959a3ba115505f",
         "status" : "failed",
         "time" : {
@@ -23,7 +23,7 @@
       "name" : "Expected - '1234567891234567', actual - '123456789123456789'",
       "children" : [ {
         "name" : "Try to input in Login more than 16 symbols",
-        "uid" : "494645079311175",
+        "uid" : "d8fcd086d38a32c3",
         "parentUid" : "b1b1fb8d7a0f9069aa6b3c1865fe29b7",
         "status" : "failed",
         "time" : {
@@ -39,7 +39,7 @@
       "name" : "Expected - 'password incorrect', actual - 'Congratulations! You have been successfully registered.'",
       "children" : [ {
         "name" : "Try to create user with incorrect password field (with spaces)",
-        "uid" : "369da4c507ea0f0f",
+        "uid" : "df2eb6c639436e7e",
         "parentUid" : "2b4f34c03d82b3da00dec27a47c7f0fe",
         "status" : "failed",
         "time" : {
@@ -55,7 +55,7 @@
       "name" : "Expected - '- email incorrect', actual - 'Congratulations! You have been successfully registered'",
       "children" : [ {
         "name" : "Try to create user with incorrect Email field (with spaces)",
-        "uid" : "e9b077d227a4e275",
+        "uid" : "20b1cb34dd481ec4",
         "parentUid" : "923d0cb11a34492484b478aaa4193470",
         "status" : "failed",
         "time" : {
@@ -71,7 +71,7 @@
       "name" : "Expected empty fields, actual is not empty; See attachment",
       "children" : [ {
         "name" : "Check Reset button",
-        "uid" : "95c806b68ae5eead",
+        "uid" : "55f775f0e5c779bc",
         "parentUid" : "18a991fb0b56e1c2a6830f0e69e1395a",
         "status" : "failed",
         "time" : {
@@ -87,97 +87,97 @@
       "name" : "\n                      AssertionError: expected 200 to equal 400\n                      + expected - actual\n                \n                      -200\n                      +400\n                      ",
       "children" : [ {
         "name" : "with correct login and incorrect password (await 400)",
-        "uid" : "b10fa7c0ae7a46ed",
+        "uid" : "c8a440bb699843",
         "parentUid" : "f4a8115e968245d2177b0bf74d2b0075",
         "status" : "failed",
         "time" : {
-          "start" : 1519717975082,
-          "stop" : 1519717975238,
-          "duration" : 156
+          "start" : 1519721870200,
+          "stop" : 1519721870353,
+          "duration" : 153
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "with incorrect login and incorrect password (await 400)",
-        "uid" : "65f204a25c9bc823",
+        "uid" : "f0cebfa446553e5c",
         "parentUid" : "f4a8115e968245d2177b0bf74d2b0075",
         "status" : "failed",
         "time" : {
-          "start" : 1519717975238,
-          "stop" : 1519717975398,
-          "duration" : 160
+          "start" : 1519721870354,
+          "stop" : 1519721870502,
+          "duration" : 148
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "with empty login and empty password (await 400)",
-        "uid" : "f6147a534190a137",
+        "uid" : "4286c1d08c6e67d1",
         "parentUid" : "f4a8115e968245d2177b0bf74d2b0075",
         "status" : "failed",
         "time" : {
-          "start" : 1519717975398,
-          "stop" : 1519717975598,
-          "duration" : 200
+          "start" : 1519721870502,
+          "stop" : 1519721870669,
+          "duration" : 167
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "register with incorrect email (await status 400)",
-        "uid" : "a99028ddec509b06",
+        "uid" : "7e5f3aacbbce4809",
         "parentUid" : "f4a8115e968245d2177b0bf74d2b0075",
         "status" : "failed",
         "time" : {
-          "start" : 1519717977746,
-          "stop" : 1519717977897,
-          "duration" : 151
+          "start" : 1519721873593,
+          "stop" : 1519721873767,
+          "duration" : 174
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "register with incorrect login (count of symbols more than 16) (await status 400)",
-        "uid" : "30c6691c923fcdb3",
+        "uid" : "f56b080ef383e61a",
         "parentUid" : "f4a8115e968245d2177b0bf74d2b0075",
         "status" : "failed",
         "time" : {
-          "start" : 1519717977897,
-          "stop" : 1519717978247,
-          "duration" : 350
+          "start" : 1519721873767,
+          "stop" : 1519721874048,
+          "duration" : 281
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "register with incorrect password (with spaces) (await status 400)",
-        "uid" : "edd0498fef51e2d9",
+        "uid" : "d96c3be3af38fb4c",
         "parentUid" : "f4a8115e968245d2177b0bf74d2b0075",
         "status" : "failed",
         "time" : {
-          "start" : 1519717978247,
-          "stop" : 1519717980455,
-          "duration" : 2208
+          "start" : 1519721874049,
+          "stop" : 1519721874221,
+          "duration" : 172
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "register with incorrect password_confirm (await status 400)",
-        "uid" : "582902a834deb4df",
+        "uid" : "8f578cf3b530f40f",
         "parentUid" : "f4a8115e968245d2177b0bf74d2b0075",
         "status" : "failed",
         "time" : {
-          "start" : 1519717980455,
-          "stop" : 1519717980842,
-          "duration" : 387
+          "start" : 1519721874222,
+          "stop" : 1519721874365,
+          "duration" : 143
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "register with incorrect sex (await status 400)",
-        "uid" : "f8066920393b9186",
+        "uid" : "dace764b94b85efb",
         "parentUid" : "f4a8115e968245d2177b0bf74d2b0075",
         "status" : "failed",
         "time" : {
-          "start" : 1519717980842,
-          "stop" : 1519717981008,
-          "duration" : 166
+          "start" : 1519721874365,
+          "stop" : 1519721874570,
+          "duration" : 205
         },
         "flaky" : true,
         "parameters" : [ ]
@@ -187,13 +187,13 @@
       "name" : "\n                      AssertionError: expected 404 to equal 200\n                      + expected - actual\n                \n                      -404\n                      +200\n                      ",
       "children" : [ {
         "name" : "check existence background.png",
-        "uid" : "6cebeb93f5af3cea",
+        "uid" : "5d0fecc2cad33389",
         "parentUid" : "ccc61f21f6bb5d60f20a69ce153e168f",
         "status" : "failed",
         "time" : {
-          "start" : 1519717976199,
-          "stop" : 1519717976288,
-          "duration" : 89
+          "start" : 1519721871381,
+          "stop" : 1519721871508,
+          "duration" : 127
         },
         "flaky" : true,
         "parameters" : [ ]
@@ -203,13 +203,13 @@
       "name" : "AssertionError: expected '\\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">\\n<html>\\n<head>\\n    <title>\\n        \\n        Welcome to our buggy system!\\n        \\n    </title>\\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\\n    <style type=\"text/css\">\\n        div.content {\\n            width: 440px;\\n            padding: 10px;\\n            background-color: greenyellow;\\n            border: 1px solid #93d928;\\n            -moz-border-radius: 10px;\\n            -webkit-border-radius: 10px;\\n        }\\n\\n        table.logo {\\n            background: url( \"/img/background.png\" );\\n            background-repeat: no-repeat;\\n            width: 402px;\\n            height: 285px;\\n        }\\n\\n        span.message {\\n            color: green;\\n        }\\n\\n        div.error {\\n            width: 440px;\\n            padding: 10px;\\n            border: 1px solid coral;\\n            margin-bottom: 10px;\\n            text-align: left;\\n            -moz-border-radius: 10px;\\n            -webkit-border-radius: 10px;\\n        }\\n    </style>\\n</head>\\n<body>\\n<table width=\"100%\" height=\"100%\" border=\"0\">\\n    <tr align=\"center\" valign=\"middle\">\\n        <td>\\n            <table class=\"logo\" border=\"0\">\\n                <tr align=\"center\" valign=\"middle\">\\n                    <td>\\n                        \\n                        <div class=\"content\">\\n                            \\n                            <span class=\"message\">Congratulations! You have been successfully registered. Now you can <a href=\"?action=login\">login</a>.</span>\\n                            \\n                            \\n                            \\n                            \\n                        </div>\\n                    </td>\\n                </tr>\\n            </table>\\n        </td>\\n    </tr>\\n</table>\\n<script>\\n  (function(i,s,o,g,r,a,m){i[\\'GoogleAnalyticsObject\\']=r;i[r]=i[r]||function(){\\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\\n  })(window,document,\\'script\\',\\'https://www.google-analytics.com/analytics.js\\',\\'ga\\');\\n\\n  ga(\\'create\\', \\'UA-45669254-2\\', \\'auto\\');\\n  ga(\\'send\\', \\'pageview\\');\\n\\n</script>\\n</body>\\n</html>\\n' to deep include 'the password can not contain spaces'",
       "children" : [ {
         "name" : "register with incorrect password (with spaces)",
-        "uid" : "605528d92d3cf452",
+        "uid" : "89029c1c38db0d1d",
         "parentUid" : "3cfd3f803a75561db4c059dfa3e46901",
         "status" : "failed",
         "time" : {
-          "start" : 1519717977115,
-          "stop" : 1519717977272,
-          "duration" : 157
+          "start" : 1519721872800,
+          "stop" : 1519721873031,
+          "duration" : 231
         },
         "flaky" : true,
         "parameters" : [ ]
