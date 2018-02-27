@@ -1,5 +1,5 @@
 @musc
-Feature: Login to site
+Feature: UI ./Login to site
 
   Background:
     Given I go to /cgi-bin/bug.pl?action=login page

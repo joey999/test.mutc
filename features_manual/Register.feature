@@ -1,5 +1,5 @@
 @musc
-Feature: Register new user
+Feature: UI ./Register new user
 
   Background:
     Given I go to /cgi-bin/bug.pl?action=register page
